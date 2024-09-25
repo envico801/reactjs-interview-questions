@@ -11,6 +11,7 @@ _(translation) - The Anki version's got the same content as the original, just w
 But wait, there’s more to explore on your journey:
 
 - 🔮 **JavaScript Interview Questions & Answers** – [ankiweb (deck)](https://ankiweb.net/shared/info/1035695037) – [GitHub Repository](https://github.com/envico801/javascript-interview-questions)
+- ⚛️ **React Interview Questions & Answers** – [ankiweb (Deck)](https://ankiweb.net/shared/info/1098877193) – [GitHub Repository](https://github.com/envico801/reactjs-interview-questions)
 - 🧬 **Anki JavaScript Regular Expressions** – ankiweb (deck) **(upload pending)** – [GitHub Repository](https://github.com/envico801/anki-javascript-regular-expressions)
 - 🛡️ **Anki OWASP Top 10** – ankiweb (deck) **(upload pending)** – [GitHub Repository](https://github.com/envico801/anki-owasp-top-10)
 
