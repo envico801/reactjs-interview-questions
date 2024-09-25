@@ -1,3 +1,59 @@
+# ✨ Introduction
+
+Greetings, code wanderers! Welcome to this dazzling deck of [Reactjs interview questions](https://github.com/sudheerj/reactjs-interview-questions), originally crafted by the coding maestro [Sudheer Jonna](https://twitter.com/SudheerJonna). A round of applause 👏 for Sudheer and [the brilliant minds (contributors)](https://github.com/sudheerj/reactjs-interview-questions/graphs/contributors) who've sprinkled their coding magic to improve this repository.
+
+### Anki Adaptation Magic ✨
+
+Behold, the [Anki-adapted version](https://github.com/envico801/reactjs-interview-questions)! My goal is to preserve the charm of the original questions while juggling some formatting quirks. *Yes, there might be a bit of indentation errors thanks to a [script I summoned](https://github.com/envico801/obsidian-to-anki-card-converter)*, but fear not 🧙‍♂️ – the questions retain 100% of their original glory.
+
+### Quest for Perfection 🚀
+
+Some might say perfection is a journey, not a destination. In our case, these questions could be jazzed up for easier learning. Picture this: the first question transformed into a symphony of 2 or 3 sub-questions. Alas, as the harbinger of fresh changes, keeping track of when to split or modify questions is akin to herding caffeinated cats. 🐱
+
+## 💖 Support the Sorcerer/s
+
+Extend your digital love to Sudheer – visit [his GitHub profile](https://github.com/sudheerj) and consider the magic of referral links as you enchantingly subscribe to one of these realms:
+
+* [Nail React interviews with questions and solutions from ex-interviewers!](https://www.greatfrontend.com/questions/react?utm_source=github&utm_medium=referral&utm_campaign=sudheerj-react&gnrs=sudheerj)
+* [Ace React interview questions with solutions from FAANG+ companies!](https://www.frontendlead.com/coding-questions?utm_source=github&utm_medium=referral&utm_campaign=sudheerj-react)
+* [ZTM - Complete React Developer in 2024 (w/ Redux, Hooks, GraphQL)](https://links.zerotomastery.io/react_sudheer)
+* [ZTM - Master the Coding Interview: Data Structures + Algorithms](http://links.zerotomastery.io/mci_sudheer)
+
+## 🆘 Need a Spell Breaker?
+
+Seeking refuge from the digital labyrinth, weary traveler? Fear not, for I am your trusty guide through the treacherous terrain of bugs and glitches. Arm yourself with the following:
+
+* **[Issue Tracker (Preferred)](https://github.com/envico801/reactjs-interview-questions/issues):** The sanctified ground for reporting bugs 🐛 and seeking support. The path less traveled but infinitely more efficient.
+* **Carrier Pigeon (Email):** For those who prefer a more personal touch, send a message to [envico801@gmail.com](mailto:envico801@gmail.com?subject=Support%20request%20concerning%20'SJIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna'&body=Please%20describe%20your%20request%20here%20while%20providing%20as%20many%20details%20as%20possible%20(e.g.%20exact%20instructions%20to%20reproduce%20the%20problem,%20screenshots,%20info%20about%20your%20Anki%20version%20and%20operating%20system,%20etc.)). I promise, the pigeons 🕊️ are well-fed and ready to deliver your digital scrolls.
+
+Feeling chatty? Constructive feedback and suggestions are the secret sauce – sprinkle them generously! 🌟
+
+## 🌟 Usage Tips
+
+In case Anki forgets its styling magic, tap into the mystical powers of [CSS/HTML styles from my repository](https://github.com/envico801/anki-config/tree/main/cards/basic). Your eyes will thank you for the clarity! Pay special attention to the styles for code blocks and tables – those sneaky code blocks tend to lose their indentations, and table borders play hide and seek.
+
+<p align="center">
+    <a href="https://github.com/user-attachments/assets/4bdaba9e-2d83-4bab-934a-5ddcd6fb5699"
+       target="_blank">
+        <img src="https://github.com/user-attachments/assets/4bdaba9e-2d83-4bab-934a-5ddcd6fb5699"
+             alt="Card example 1" style="height: 200px;">
+    </a>
+    <a href="https://github.com/user-attachments/assets/18fcf7ae-77a8-4170-8908-ee450a00ec5e"
+       target="_blank">
+        <img src="https://github.com/user-attachments/assets/18fcf7ae-77a8-4170-8908-ee450a00ec5e"
+             alt="Card example 2" style="height: 200px;">
+    </a>
+    <a href="https://github.com/user-attachments/assets/59022d4f-024e-4375-bbe7-eaf6b8b52d7b"
+       target="_blank">
+        <img src="https://github.com/user-attachments/assets/59022d4f-024e-4375-bbe7-eaf6b8b52d7b"
+             alt="Card example 3" style="height: 200px;">
+    </a>
+</p>
+
+## README.md of the original repository below
+
+---
+
 # React Interview Questions & Answers
 
 > Click :star:if you like the project. Pull Request are highly appreciated. Follow me [@SudheerJonna](https://twitter.com/SudheerJonna) for technical updates.
