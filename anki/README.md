@@ -9581,7 +9581,9 @@ componentDidMount() {
 
 **How to prevent it:** Make sure your state variables are immutable by either enforcing immutability by using plugins like Immutable.js, always using `setState` to make updates, and returning new instances in reducers when sending updated state values.
 
-#### Chapter 10 - Coding Exercises
+### Part II - Coding Exercises
+
+#### Chapter 1 - Exercises
 
 Q:: =============================================  
 
