@@ -373,6 +373,12 @@
 | [357](#id357) | [What is the purpose of rendertonodestream](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%209%20-%20Old%20Q%20A/357%20-%20What%20is%20the%20purpose%20of%20rendertonodestream.md) | 1 | 9 |
 | [358](#id358) | [How do you get redux scaffolding using cre](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%209%20-%20Old%20Q%20A/358%20-%20How%20do%20you%20get%20redux%20scaffolding%20using%20cre.md) | 1 | 9 |
 | [359](#id359) | [What is state mutation and how to prevent](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%209%20-%20Old%20Q%20A/359%20-%20What%20is%20state%20mutation%20and%20how%20to%20prevent.md) | 1 | 9 |
+| **-** | **Fundamentals > Coding Exercises** | **1** | **10** |
+| [360](#id360) | [What is the output of below code javasc](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Coding%20Exercises/360%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 10 |
+| [361](#id361) | [What is the output of below code javasc](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Coding%20Exercises/361%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 10 |
+| [362](#id362) | [What is the output of span after one click](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Coding%20Exercises/362%20-%20What%20is%20the%20output%20of%20span%20after%20one%20click.md) | 1 | 10 |
+| [363](#id363) | [What is the outcome of below code after bu](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Coding%20Exercises/363%20-%20What%20is%20the%20outcome%20of%20below%20code%20after%20bu.md) | 1 | 10 |
+| [364](#id364) | [What is the outcome of number of clicks af](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Coding%20Exercises/364%20-%20What%20is%20the%20outcome%20of%20number%20of%20clicks%20af.md) | 1 | 10 |
 
 ### Part I - Fundamentals
 
@@ -2369,7 +2375,8 @@ export default function MyProfile {
 
 <details><summary><b>See Class</b></summary>
 <p>
- ```jsx
+
+```jsx
  import React from "react";
  import User from "user";
 
@@ -2378,13 +2385,12 @@ render() {
 return <User type="customer">//...</User>;
 }
 }
-
 ```
+
 </p>
 </details>
 
 With the export specifier, the MyProfile is going to be the member and exported to this module and the same can be imported without mentioning the name in other components.
-```
 
 Q:: =============================================  
 
@@ -5071,7 +5077,7 @@ A:: =============================================
 When diffing two trees, React first compares the two root elements. The behavior is different depending on the types of the root elements. It covers the below rules during reconciliation algorithm,
 
  1. **Elements Of Different Types:**
-    Whenever the root elements have different types, React will tear down the old tree and build the new tree from scratch. For example, elements <a> to <img>, or from <Article> to <Comment> of different types lead a full rebuild.
+    Whenever the root elements have different types, React will tear down the old tree and build the new tree from scratch. For example, elements `<a>` to `<img>`, or from `<Article>` to `<Comment>` of different types lead a full rebuild.
  2. **DOM Elements Of The Same Type:**
     When comparing two React DOM elements of the same type, React looks at the attributes of both, keeps the same underlying DOM node, and only updates the changed attributes. Lets take an example with same DOM elements except className attribute,
 
@@ -5918,7 +5924,7 @@ Q:: =============================================
 A:: =============================================  
 There are two different ways to create components in ReactJS. The main differences are listed down as below,
 
- ## 1. Syntax:
+ #### 1. Syntax:
 
  The class components uses ES6 classes to create the components. It uses `render` function to display the HTML content in the webpage.
 
@@ -5946,7 +5952,7 @@ There are two different ways to create components in ReactJS. The main differenc
  }
  ```
 
- ## 2. State:
+ #### 2. State:
 
  State contains information or data about a component which may change over time.
 
@@ -6005,7 +6011,7 @@ There are two different ways to create components in ReactJS. The main differenc
  }
  ```
 
- ## 3. Props:
+ #### 3. Props:
 
  Props are referred to as "properties". The props are passed into React component just like arguments passed to a function. In other words, they are similar to HTML attributes.
 
@@ -6929,18 +6935,18 @@ Q:: =============================================
 A:: =============================================  
 You can efficiently build nextjs application if you are aware about which part of the application needs to use client components and which other parts needs to use server components. The common cases of both client and server components are listed below:
 
-    **Client components:**
-    1. Whenever your need to add interactivity and event listeners such as onClick(), onChange(), etc to the pages
-    2. If you need to use State and Lifecycle Effects like useState(), useReducer(), useEffect() etc.
-    3. If there is a requirement to use browser-only APIs.
-    4. If you need to implement custom hooks that depend on state, effects, or browser-only APIs.
-    5. There are React Class components in the pages.
+**Client components:**
+1. Whenever your need to add interactivity and event listeners such as onClick(), onChange(), etc to the pages
+2. If you need to use State and Lifecycle Effects like useState(), useReducer(), useEffect() etc.
+3. If there is a requirement to use browser-only APIs.
+4. If you need to implement custom hooks that depend on state, effects, or browser-only APIs.
+5. There are React Class components in the pages.
 
-    **Server components:**
-    1. If the component logic is about data fetching.
-    2. If you need to access backend resources directly.
-    3. When you need to keep sensitive information((access tokens, API keys, etc)	) on the server.
-    4. If you want reduce client-side JavaScript and placing large dependencies on the server.
+**Server components:**
+1. If the component logic is about data fetching.
+2. If you need to access backend resources directly.
+3. When you need to keep sensitive information((access tokens, API keys, etc)	) on the server.
+4. If you want reduce client-side JavaScript and placing large dependencies on the server.
 
 Q:: =============================================  
 
@@ -8505,40 +8511,40 @@ Q:: =============================================
 A:: =============================================  
 Starting from react-scripts@3.3.0+ releases onwards, you can now optionally start a new app from a template by appending `--template [template-name]` to the creation command. If you don't select a template, it will create your project with base template. Remember that templates are always named in the format `cra-template-[template-name]`, here you only need to fill the `[template-name]` section.
 
-    The typeScript can be used in your project by appending `--template typescript` to the creation command.
+The typeScript can be used in your project by appending `--template typescript` to the creation command.
 
-     ```bash
-     npx create-react-app my-app --template typescript
-     ```
+```bash
+npx create-react-app my-app --template typescript
+```
 
-    But if you are using React Scripting between react-scripts@2.1.0 and react-scripts@3.2.x , there is a built-in support for TypeScript. i.e, `create-react-app` now supports TypeScript natively. You can just pass `--typescript` option as below
+But if you are using React Scripting between react-scripts@2.1.0 and react-scripts@3.2.x , there is a built-in support for TypeScript. i.e, `create-react-app` now supports TypeScript natively. You can just pass `--typescript` option as below
 
-     ```bash
-     npx create-react-app my-app --typescript
+```bash
+npx create-react-app my-app --typescript
 
-     # or
+# or
 
-     yarn create react-app my-app --typescript
-     ```
+yarn create react-app my-app --typescript
+```
 
-     Whereas for lower versions of react scripts, just supply `--scripts-version` option as `react-scripts-ts` while you create a new project. `react-scripts-ts` is a set of adjustments to take the standard `create-react-app` project pipeline and bring TypeScript into the mix.
+Whereas for lower versions of react scripts, just supply `--scripts-version` option as `react-scripts-ts` while you create a new project. `react-scripts-ts` is a set of adjustments to take the standard `create-react-app` project pipeline and bring TypeScript into the mix.
 
-     Now the project layout should look like the following:
+Now the project layout should look like the following:
 
-     ```
-     my-app/
-     ├─ .gitignore
-     ├─ images.d.ts
-     ├─ node_modules/
-     ├─ public/
-     ├─ src/
-     │  └─ ...
-     ├─ package.json
-     ├─ tsconfig.json
-     ├─ tsconfig.prod.json
-     ├─ tsconfig.test.json
-     └─ tslint.json
-     ```
+```
+my-app/
+├─ .gitignore
+├─ images.d.ts
+├─ node_modules/
+├─ public/
+├─ src/
+│  └─ ...
+├─ package.json
+├─ tsconfig.json
+├─ tsconfig.prod.json
+├─ tsconfig.test.json
+└─ tslint.json
+```
 
 Q:: =============================================  
 
@@ -9575,7 +9581,216 @@ componentDidMount() {
 
 **How to prevent it:** Make sure your state variables are immutable by either enforcing immutability by using plugins like Immutable.js, always using `setState` to make updates, and returning new instances in reducers when sending updated state values.
 
-#### Chapter 10 - Disclaimer
+#### Chapter 10 - Coding Exercises
+
+Q:: =============================================  
+
+##### What is the output of below code
+
+```javascript
+import { useState } from 'react';
+
+export default function Counter() {
+  const [counter, setCounter] = useState(5);
+
+  return (
+    <>
+      <span>{counter}</span>
+      <button onClick={() => {
+        setCounter(counter + 5);
+        setCounter(counter + 5);
+        alert(counter);
+        setCounter(counter + 5);
+        setCounter(counter + 5);
+      }}>Increment</button>
+    </>
+  )
+}
+```
+
+- 1: Alert with 5, 5
+- 2: Alert with 15, 25
+- 3: Alert with 5,  10
+- 4: Error: Cannot update the same state multiple times concurrently
+
+###### ID360
+
+A:: =============================================  
+Answer: 3
+
+State values are fixed(i.e, default value 5) in each render and setting the state only changes it for the next render. React will wait until all the code executed with in an event handler before your state updates followed by re-rendering the UI. Also, all the 3 setter function calls are replacing the calculated value. Hence, irrespective of how many times you call `setCounter(counter + 5)` the final value is 10(5+5).
+
+This can be visuallized by substituting with state variable values in the particular render,
+```javascript
+      <button onClick={() => {
+        setCounter(5 + 5);
+        setCounter(5 + 5);
+        alert(5);
+        setCounter(5 + 5);
+        setCounter(5 + 5);
+      }}>Increment</button>
+```
+
+Q:: =============================================  
+
+##### What is the output of below code
+
+```javascript
+import { useState } from 'react';
+
+export default function Counter() {
+  const [counter, setCounter] = useState(5);
+
+  return (
+    <>
+      <span>{counter}</span>
+      <button onClick={() => {
+        setCounter(counter => counter + 5);
+        setCounter(counter => counter + 5);
+        alert(counter);
+        setCounter(counter => counter + 5);
+        setCounter(counter => counter + 5);
+      }}>Increment</button>
+    </>
+  )
+}
+```
+
+- 1: Alert with 5, 25
+- 2: Alert with 5, 10
+- 3: Alert with 15, 25
+- 4: Alert with 15, 10
+
+###### ID361
+
+A:: =============================================  
+Answer: 1
+
+React queues all the updater functions(e.g, counter => counter + 5) which will be processed after all the code inside event handler has been executed. During the next re-render(state update through setState), React goes through the queue and increment the counter based on the previous value in each function call. So the final value of counter becomes 25(initial value 5 + 5 + 5 + 5 + 5) whereas the alert shows default value 5 because the counter value won't be updated by that time.
+
+Q:: =============================================  
+
+##### What is the output of span after one click?
+
+```javascript
+import { useRef } from 'react';
+
+export default function Counter() {
+  let countRef = useRef(0);
+
+  function handleIncrement() {
+    countRef.current = countRef.current + 1;
+  }
+
+  return 
+  <>
+    <span>Count: {countRef.current}</span>
+    <button onClick={handleIncrement}>
+      Click me
+    </button>
+  </>
+}
+```
+
+- 1: Cannot read current property of undefined
+- 2: Count: 1
+- 3: null
+- 4: Count: 0
+
+###### ID362
+
+A:: =============================================  
+Answer: 4
+
+In React, every update has two phases. 
+1. **Render:** This is where React calls the components in order to output something on the screen
+2. **Commit:** React applies changes to the DOM
+
+Any updates to the ref will be reflected only in the commit phase. In other words, React sets **counterRef.current** during the commit phase. Hence, **countRef.current** always holds value `0` irrespective of how many times the Increment button clicked.
+
+Q:: =============================================  
+
+##### What is the outcome of below code after button click?
+
+```javascript
+import { useRef } from 'react';
+
+function MyCustomInput(props) {
+  return <input {...props} />;
+}
+
+export default function MyCustomForm() {
+  const inputRef = useRef(null);
+
+  function handleInputFocus() {
+    inputRef.current.focus();
+  }
+
+  return (
+    <>
+      <MyCustomInput ref={inputRef} />
+      <button onClick={handleInputFocus}>
+        Click Me
+      </button>
+    </>
+  );
+}
+```
+
+- 1: Input gets the focus
+- 2: Warning: Function components cannot be given refs.
+- 3: Cannot read current property of undefined
+- 4: Warning: Missing ref on `<input />` element
+
+###### ID363
+
+A:: =============================================  
+Answer: 2
+
+By default, React does not allow a component access the DOM nodes of other components even for child components. If you still try to access the DOM nodes directly then you will receive below error:
+
+```javascript
+Warning: Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?
+```
+
+This issue can be fixed by wrapping the **`<MyCustomInput />`** component with `forwardRef` function which accepts ref as the second argument which can be used on the **`<input />`** element as **ref={ref}**
+
+Q:: =============================================  
+
+##### What is the outcome of number of clicks after 3 button clicks?
+
+```javascript
+import { useRef } from 'react';
+
+export default function Counter() {
+  let ref = useRef(0);
+
+  function handleClick() {
+    ref.current = ref.current + 1;
+  }
+
+  return (
+    <>
+		<div>Clicked + {ref.current} + times</div>
+		<button onClick={handleClick}>
+			Click me!
+		</button>
+    </>
+  );
+}
+```
+
+- 1: 3 times
+- 2: 4 times
+- 3: 2 times
+- 4: 0 times
+
+###### ID364
+
+A:: =============================================  
+Answer: 4
+
+If you try to use **{ref.current}** in the render method, the number won’t be updated on click. This is because **ref.current** does not trigger a re-render unlike state. This property is mainly used to read and write the values inside event handler or outside the render method.
 
 ---
 
