@@ -6,6 +6,8 @@ Greetings, code wanderers! Welcome to this dazzling deck of [Reactjs interview q
 
 A mystical conversion preserves the essence of the original questions, with just a few formatting runes gone awry. Fear not, for though a rogue [spell (script)](https://github.com/envico801/obsidian-to-anki-card-converter) may have left some indentations crooked, the wisdom within remains untouched!
 
+_(translation) - The Anki version's got the same content as the original, just with some wonky formatting._
+
 But wait, there’s more to explore on your journey:
 
 - 🔮 **JavaScript Interview Questions & Answers** – [ankiweb (deck)](https://ankiweb.net/shared/info/1035695037) – [GitHub Repository](https://github.com/envico801/javascript-interview-questions)
@@ -17,6 +19,8 @@ The magical journey never ends! Dive into these sacred tomes to unlock new realm
 ### 🧪 Quest for Perfection
 
 Some might say perfection is a journey, not a destination. In our case, these questions could be jazzed up for easier learning. Picture this: the first question transformed into a symphony of 2 or 3 sub-questions. Alas, as the harbinger of fresh changes, keeping track of when to split or modify questions is akin to herding caffeinated cats. 🐱
+
+_(translation) - These questions could use some tweaking to make them easier to learn, such as breaking them down into smaller questions._
 
 ## 💖 Support the Sorcerer/s
 
