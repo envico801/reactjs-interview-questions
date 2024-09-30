@@ -4,15 +4,13 @@
 
 ========== Answer ==========  
 
-React (or JSX) doesn't support variable interpolation inside an attribute value.
-The below representation won't work:
+React (or JSX) doesn't support variable interpolation inside an attribute value. The below representation won't work:
 
 ```jsx
 <img className='image' src='images/{this.props.image}' />
 ```
 
-But you can put any JS expression inside curly braces as the entire attribute
-value. So the below expression works:
+But you can put any JS expression inside curly braces as the entire attribute value. So the below expression works:
 
 ```jsx
 <img className='image' src={'images/' + this.props.image} />

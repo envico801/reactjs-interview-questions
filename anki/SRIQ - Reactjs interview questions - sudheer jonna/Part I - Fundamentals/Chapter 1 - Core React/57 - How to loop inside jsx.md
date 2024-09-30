@@ -26,9 +26,7 @@ But you can't iterate using `for` loop:
 </tbody>
 ```
 
-This is because JSX tags are transpiled into _function calls_, and you can't use
-statements inside expressions. This may change thanks to `do` expressions which
-are _stage 1 proposal_.
+This is because JSX tags are transpiled into _function calls_, and you can't use statements inside expressions. This may change thanks to `do` expressions which are _stage 1 proposal_.
 
 ========== Id ==========  
 57

@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can add/edit props passed to the component using _props proxy_ pattern like
-this:
+You can add/edit props passed to the component using _props proxy_ pattern like this:
 
 ```jsx
 function HOC(WrappedComponent) {

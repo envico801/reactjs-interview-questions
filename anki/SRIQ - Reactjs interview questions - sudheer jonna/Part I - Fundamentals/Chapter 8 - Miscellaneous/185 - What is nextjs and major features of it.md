@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-Next.js is a popular and lightweight framework for static and server‑rendered
-applications built with React. It also provides styling and routing solutions.
-Below are the major features provided by NextJS,
+Next.js is a popular and lightweight framework for static and server‑rendered applications built with React. It also provides styling and routing solutions. Below are the major features provided by NextJS,
 
 1.  Server-rendered by default
 

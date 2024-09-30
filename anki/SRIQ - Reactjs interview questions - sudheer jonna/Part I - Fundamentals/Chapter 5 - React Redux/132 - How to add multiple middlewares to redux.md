@@ -6,8 +6,7 @@
 
 You can use `applyMiddleware()`.
 
-For example, you can add `redux-thunk` and `logger` passing them as arguments to
-`applyMiddleware()`:
+For example, you can add `redux-thunk` and `logger` passing them as arguments to `applyMiddleware()`:
 
 ```javascript
 import { createStore, applyMiddleware } from 'redux';

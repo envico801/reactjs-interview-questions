@@ -6,13 +6,9 @@
 
 Error boundaries do not catch errors inside event handlers.
 
-React doesn’t need error boundaries to recover from errors in event handlers.
-Unlike the render method and lifecycle methods, the event handlers don’t happen
-during rendering. So if they throw, React still knows what to display on the
-screen.
+React doesn’t need error boundaries to recover from errors in event handlers. Unlike the render method and lifecycle methods, the event handlers don’t happen during rendering. So if they throw, React still knows what to display on the screen.
 
-If you need to catch an error inside an event handler, use the regular
-JavaScript try / catch statement:
+If you need to catch an error inside an event handler, use the regular JavaScript try / catch statement:
 
 ```javascript
 class MyComponent extends React.Component {
@@ -37,8 +33,7 @@ class MyComponent extends React.Component {
 }
 ```
 
-Note that the above example is demonstrating regular JavaScript behavior and
-doesn’t use error boundaries.
+Note that the above example is demonstrating regular JavaScript behavior and doesn’t use error boundaries.
 
 ========== Id ==========  
 328

@@ -4,11 +4,7 @@
 
 ========== Answer ==========  
 
-This package provides a renderer that can be used to render components to pure
-JavaScript objects, without depending on the DOM or a native mobile environment.
-This package makes it easy to grab a snapshot of the platform view hierarchy
-(similar to a DOM tree) rendered by a ReactDOM or React Native without using a
-browser or `jsdom`.
+This package provides a renderer that can be used to render components to pure JavaScript objects, without depending on the DOM or a native mobile environment. This package makes it easy to grab a snapshot of the platform view hierarchy (similar to a DOM tree) rendered by a ReactDOM or React Native without using a browser or `jsdom`.
 
 ```jsx
 import TestRenderer from 'react-test-renderer';

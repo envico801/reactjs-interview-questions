@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can import SVG directly as component instead of loading it as a file. This
-feature is available with `react-scripts@2.0.0` and higher.
+You can import SVG directly as component instead of loading it as a file. This feature is available with `react-scripts@2.0.0` and higher.
 
 ```jsx
 import { ReactComponent as Logo } from './logo.svg';

@@ -8,8 +8,7 @@ There are two common practices for React project file structure.
 
 1.  **Grouping by features or routes:**
 
-    One common way to structure projects is locate CSS, JS, and tests together,
-    grouped by feature or route.
+    One common way to structure projects is locate CSS, JS, and tests together, grouped by feature or route.
 
     ```
     common/
@@ -34,8 +33,7 @@ There are two common practices for React project file structure.
 
 2.  **Grouping by file type:**
 
-    Another popular way to structure projects is to group similar files
-    together.
+    Another popular way to structure projects is to group similar files together.
 
     ```
     api/

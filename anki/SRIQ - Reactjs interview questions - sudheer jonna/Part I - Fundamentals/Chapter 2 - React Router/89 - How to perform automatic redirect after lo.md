@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-The `react-router` package provides `<Redirect>` component in React Router.
-Rendering a `<Redirect>` will navigate to a new location. Like server-side
-redirects, the new location will override the current location in the history
-stack.
+The `react-router` package provides `<Redirect>` component in React Router. Rendering a `<Redirect>` will navigate to a new location. Like server-side redirects, the new location will override the current location in the history stack.
 
 ```javascript
 import { Redirect } from "react-router";

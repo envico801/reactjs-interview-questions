@@ -4,14 +4,11 @@
 
 ========== Answer ==========  
 
-There are three different ways to achieve programmatic routing/navigation within
-components.
+There are three different ways to achieve programmatic routing/navigation within components.
 
 1.  **Using the `withRouter()` higher-order function:**
 
-    The `withRouter()` higher-order function will inject the history object as a
-    prop of the component. This object provides `push()` and `replace()` methods
-    to avoid the usage of context.
+    The `withRouter()` higher-order function will inject the history object as a prop of the component. This object provides `push()` and `replace()` methods to avoid the usage of context.
 
     ```jsx
     import { withRouter } from 'react-router-dom'; // this also works with 'react-router-native'
@@ -29,8 +26,7 @@ components.
 
 2.  **Using `<Route>` component and render props pattern:**
 
-    The `<Route>` component passes the same props as `withRouter()`, so you will
-    be able to access the history methods through the history prop.
+    The `<Route>` component passes the same props as `withRouter()`, so you will be able to access the history methods through the history prop.
 
     ```jsx
     import { Route } from 'react-router-dom';

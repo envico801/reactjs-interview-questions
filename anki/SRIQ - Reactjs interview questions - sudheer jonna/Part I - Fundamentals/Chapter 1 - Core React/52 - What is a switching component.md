@@ -4,11 +4,9 @@
 
 ========== Answer ==========  
 
-A _switching component_ is a component that renders one of many components. We
-need to use object to map prop values to components.
+A _switching component_ is a component that renders one of many components. We need to use object to map prop values to components.
 
-For example, a switching component to display different pages based on `page`
-prop:
+For example, a switching component to display different pages based on `page` prop:
 
 ```jsx
 import HomePage from './HomePage';

@@ -6,16 +6,9 @@
 
 You need to follow two rules in order to use hooks,
 
-1.  **Call Hooks only at the top level of your react functions:** You should
-    always use hooks at the top level of react function before any early
-    returns. i.e, You shouldn’t call Hooks inside loops, conditions, or nested
-    functions. This will ensure that Hooks are called in the same order each
-    time a component renders and it preserves the state of Hooks between
-    multiple re-renders due to useState and useEffect calls.
+1.  **Call Hooks only at the top level of your react functions:** You should always use hooks at the top level of react function before any early returns. i.e, You shouldn’t call Hooks inside loops, conditions, or nested functions. This will ensure that Hooks are called in the same order each time a component renders and it preserves the state of Hooks between multiple re-renders due to useState and useEffect calls.
 
-2.  **Call Hooks from React Functions only:** You shouldn’t call Hooks from
-    regular JavaScript functions or class components. Instead, you should call
-    them from either function components or custom hooks.
+2.  **Call Hooks from React Functions only:** You shouldn’t call Hooks from regular JavaScript functions or class components. Instead, you should call them from either function components or custom hooks.
 
 ========== Id ==========  
 169

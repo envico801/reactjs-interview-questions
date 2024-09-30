@@ -18,8 +18,7 @@ You need to follow below steps to use Polymer in React,
     });
     ```
 
-2.  Create the Polymer component HTML tag by importing it in a HTML document,
-    e.g. import it in the `index.html` of your React application:
+2.  Create the Polymer component HTML tag by importing it in a HTML document, e.g. import it in the `index.html` of your React application:
 
     ```html
     <link rel="import" href="./src/polymer-components/calendar-element.html" />

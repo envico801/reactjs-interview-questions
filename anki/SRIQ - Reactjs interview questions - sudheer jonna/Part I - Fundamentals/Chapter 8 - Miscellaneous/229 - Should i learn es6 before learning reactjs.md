@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-No, you don’t have to learn es2015/es6 to learn react. But you may find many
-resources or React ecosystem uses ES6 extensively. Let's see some of the
-frequently used ES6 features,
+No, you don’t have to learn es2015/es6 to learn react. But you may find many resources or React ecosystem uses ES6 extensively. Let's see some of the frequently used ES6 features,
 
 1.  **Destructuring:** To get props and use them in a component
 

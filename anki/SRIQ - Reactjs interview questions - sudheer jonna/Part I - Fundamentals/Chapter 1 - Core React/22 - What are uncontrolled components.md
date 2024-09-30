@@ -4,19 +4,15 @@
 
 ========== Answer ==========  
 
-The **Uncontrolled Components** are the ones that store their own state
-internally, and you query the DOM using a ref to find its current value when you
-need it. This is a bit more like traditional HTML.
+The **Uncontrolled Components** are the ones that store their own state internally, and you query the DOM using a ref to find its current value when you need it. This is a bit more like traditional HTML.
 
 The uncontrolled components will be implemented using the below steps,
 
-1. Create a ref using useRef react hook in function component or
-   `React.createRef()` in class based component.
+1. Create a ref using useRef react hook in function component or `React.createRef()` in class based component.
 
 2. Attach this ref to the form element.
 
-3. The form element value can be accessed directly through `ref` in event
-   handlers or `componentDidMount` for class components
+3. The form element value can be accessed directly through `ref` in event handlers or `componentDidMount` for class components
 
 In the below UserProfile component, the `username` input is accessed using ref.
 
@@ -40,10 +36,7 @@ function UserProfile() {
 }
 ```
 
-In most cases, it's recommend to use controlled components to implement forms.
-In a controlled component, form data is handled by a React component. The
-alternative is uncontrolled components, where form data is handled by the DOM
-itself.
+In most cases, it's recommend to use controlled components to implement forms. In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself.
 
 <details><summary><b>See Class</b></summary>
 

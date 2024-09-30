@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You need to make sure that function is not being called while passing the
-function as a parameter.
+You need to make sure that function is not being called while passing the function as a parameter.
 
 ```jsx
 render() {

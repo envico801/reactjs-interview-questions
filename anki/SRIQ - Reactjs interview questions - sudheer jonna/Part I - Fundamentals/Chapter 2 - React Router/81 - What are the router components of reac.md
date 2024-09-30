@@ -10,15 +10,11 @@ React Router v6 provides below 4 `<Router>` components:
 
 2.  `<HashRouter>`:Uses hash-based routing for static servers.
 
-3.  `<MemoryRouter>`:Uses in-memory routing for testing and non-browser
-    environments.
+3.  `<MemoryRouter>`:Uses in-memory routing for testing and non-browser environments.
 
 4.  `<StaticRouter>`:Provides static routing for server-side rendering (SSR).
 
-The above components will create _browser_, _hash_, _memory_ and _static_
-history instances. React Router v6 makes the properties and methods of the
-`history` instance associated with your router available through the context in
-the `router` object.
+The above components will create _browser_, _hash_, _memory_ and _static_ history instances. React Router v6 makes the properties and methods of the `history` instance associated with your router available through the context in the `router` object.
 
 ========== Id ==========  
 81

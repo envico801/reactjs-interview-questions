@@ -4,16 +4,9 @@
 
 ========== Answer ==========  
 
-You cannot update the objects which exists in the state directly. Instead, you
-should create a fresh new object (or copy from the existing object) and update
-the latest state using the newly created object. Eventhough JavaScript objects
-are mutable, you need to treat objects inside state as read-only while updating
-the state.
+You cannot update the objects which exists in the state directly. Instead, you should create a fresh new object (or copy from the existing object) and update the latest state using the newly created object. Eventhough JavaScript objects are mutable, you need to treat objects inside state as read-only while updating the state.
 
-Let's see this comparison with an example. The issue with regular object
-mutation approach can be described by updating the user details fields of
-`Profile` component. The properties of `Profile` component such as firstName,
-lastName and age details mutated in an event handler as shown below.
+Let's see this comparison with an example. The issue with regular object mutation approach can be described by updating the user details fields of `Profile` component. The properties of `Profile` component such as firstName, lastName and age details mutated in an event handler as shown below.
 
 ```jsx
 import { useState } from 'react';
@@ -58,12 +51,9 @@ export default function Profile() {
 }
 ```
 
-Once you run the application with above user profile component, you can observe
-that user profile details won't be update upon entering the input fields.
+Once you run the application with above user profile component, you can observe that user profile details won't be update upon entering the input fields.
 
-This issue can be fixed by creating a new copy of object which includes existing
-properties through spread syntax(...obj) and add changed values in a single
-event handler itself as shown below.
+This issue can be fixed by creating a new copy of object which includes existing properties through spread syntax(...obj) and add changed values in a single event handler itself as shown below.
 
 ```jsx
 handleProfileChange(e) {
@@ -74,9 +64,7 @@ handleProfileChange(e) {
 }
 ```
 
-The above event handler is concise instead of maintaining separate event handler
-for each field. Now, UI displays the updated field values as expected without an
-issue.
+The above event handler is concise instead of maintaining separate event handler for each field. Now, UI displays the updated field values as expected without an issue.
 
 ========== Id ==========  
 256

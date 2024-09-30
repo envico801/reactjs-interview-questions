@@ -12,8 +12,7 @@ Below are the list of main advantages of React,
 
 3. It renders both on client and server side (_SSR_).
 
-4. Easy to integrate with frameworks (Angular, Backbone) since it is only a view
-   library.
+4. Easy to integrate with frameworks (Angular, Backbone) since it is only a view library.
 
 5. Easy to write unit and integration tests with tools such as Jest.
 

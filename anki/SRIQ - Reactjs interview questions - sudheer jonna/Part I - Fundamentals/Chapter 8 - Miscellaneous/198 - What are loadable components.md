@@ -4,13 +4,7 @@
 
 ========== Answer ==========  
 
-With the release of React 18, React.lazy and Suspense are now available for
-server-side rendering. However, prior to React 18, it was recommended to use
-Loadable Components for code-splitting in a server-side rendered app because
-React.lazy and Suspense were not available for server-side rendering. Loadable
-Components lets you render a dynamic import as a regular component. For example,
-you can use Loadable Components to load the OtherComponent in a separate bundle
-like this:
+With the release of React 18, React.lazy and Suspense are now available for server-side rendering. However, prior to React 18, it was recommended to use Loadable Components for code-splitting in a server-side rendered app because React.lazy and Suspense were not available for server-side rendering. Loadable Components lets you render a dynamic import as a regular component. For example, you can use Loadable Components to load the OtherComponent in a separate bundle like this:
 
 ```javascript
 import loadable from '@loadable/component';
@@ -26,10 +20,7 @@ function MyComponent() {
 
 Now OtherComponent will be loaded in a separated bundle
 
-Loadable Components provides additional benefits beyond just code-splitting,
-such as automatic code reloading, error handling, and preloading. By using
-Loadable Components, you can ensure that your application loads quickly and
-efficiently, providing a better user experience for your users.
+Loadable Components provides additional benefits beyond just code-splitting, such as automatic code reloading, error handling, and preloading. By using Loadable Components, you can ensure that your application loads quickly and efficiently, providing a better user experience for your users.
 
 ========== Id ==========  
 198

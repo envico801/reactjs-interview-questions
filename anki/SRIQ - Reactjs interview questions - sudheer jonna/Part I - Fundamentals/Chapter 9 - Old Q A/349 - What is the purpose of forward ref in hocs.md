@@ -4,11 +4,7 @@
 
 ========== Answer ==========  
 
-Refs will not get passed through because ref is not a prop. It is handled
-differently by React just like **key**. If you add a ref to a HOC, the ref will
-refer to the outermost container component, not the wrapped component. In this
-case, you can use Forward Ref API. For example, we can explicitly forward refs
-to the inner FancyButton component using the React.forwardRef API.
+Refs will not get passed through because ref is not a prop. It is handled differently by React just like **key**. If you add a ref to a HOC, the ref will refer to the outermost container component, not the wrapped component. In this case, you can use Forward Ref API. For example, we can explicitly forward refs to the inner FancyButton component using the React.forwardRef API.
 
 The below HOC logs all props,
 
@@ -31,8 +27,7 @@ function logProps(Component) {
 }
 ```
 
-Let's use this HOC to log all props that get passed to our “fancy button”
-component,
+Let's use this HOC to log all props that get passed to our “fancy button” component,
 
 ```javascript
 class FancyButton extends React.Component {
@@ -44,8 +39,7 @@ class FancyButton extends React.Component {
 export default logProps(FancyButton);
 ```
 
-Now let's create a ref and pass it to FancyButton component. In this case, you
-can set focus to button element.
+Now let's create a ref and pass it to FancyButton component. In this case, you can set focus to button element.
 
 ```javascript
 import FancyButton from './FancyButton';

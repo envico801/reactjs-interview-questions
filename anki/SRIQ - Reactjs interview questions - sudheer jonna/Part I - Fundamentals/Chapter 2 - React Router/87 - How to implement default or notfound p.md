@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-A `<Switch>` renders the first child `<Route>` that matches. A `<Route>` with no
-path always matches. So you just need to simply drop path attribute as below
+A `<Switch>` renders the first child `<Route>` that matches. A `<Route>` with no path always matches. So you just need to simply drop path attribute as below
 
 ```jsx
 <Switch>

@@ -4,11 +4,9 @@
 
 ========== Answer ==========  
 
-When you call setState() in the component, React merges the object you provide
-into the current state.
+When you call setState() in the component, React merges the object you provide into the current state.
 
-For example, let us take a facebook user with posts and comments details as
-state variables,
+For example, let us take a facebook user with posts and comments details as state variables,
 
 ```javascript
   constructor(props) {
@@ -37,8 +35,7 @@ Now you can update them independently with separate `setState()` calls as below,
   }
 ```
 
-As mentioned in the above code snippets, `this.setState({comments})` updates
-only comments variable without modifying or replacing `posts` variable.
+As mentioned in the above code snippets, `this.setState({comments})` updates only comments variable without modifying or replacing `posts` variable.
 
 ========== Id ==========  
 342

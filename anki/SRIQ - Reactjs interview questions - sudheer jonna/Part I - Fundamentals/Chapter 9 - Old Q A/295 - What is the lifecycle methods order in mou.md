@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The lifecycle methods are called in the following order when an instance of a
-component is being created and inserted into the DOM.
+The lifecycle methods are called in the following order when an instance of a component is being created and inserted into the DOM.
 
 1. `constructor()`
 

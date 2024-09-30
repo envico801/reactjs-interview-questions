@@ -6,11 +6,9 @@
 
 Let's see the main features of Reselect library,
 
-1.  Selectors can compute derived data, allowing Redux to store the minimal
-    possible state.
+1.  Selectors can compute derived data, allowing Redux to store the minimal possible state.
 
-2.  Selectors are efficient. A selector is not recomputed unless one of its
-    arguments changes.
+2.  Selectors are efficient. A selector is not recomputed unless one of its arguments changes.
 
 3.  Selectors are composable. They can be used as input to other selectors.
 

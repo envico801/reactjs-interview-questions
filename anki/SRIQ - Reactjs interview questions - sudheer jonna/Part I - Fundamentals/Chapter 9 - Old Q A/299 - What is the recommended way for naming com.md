@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-It is recommended to name the component by reference instead of using
-`displayName`.
+It is recommended to name the component by reference instead of using `displayName`.
 
 Using `displayName` for naming component:
 

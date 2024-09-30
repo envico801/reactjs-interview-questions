@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-`Formik` is a form library for react which provides solutions such as
-validation, keeping track of the visited fields, and handling form submission.
+`Formik` is a form library for react which provides solutions such as validation, keeping track of the visited fields, and handling form submission.
 
 In detail, You can categorize them as follows,
 
@@ -15,8 +14,7 @@ In detail, You can categorize them as follows,
 
 3.  Handling form submission
 
-It is used to create a scalable, performant, form helper with a minimal API to
-solve annoying stuff.
+It is used to create a scalable, performant, form helper with a minimal API to solve annoying stuff.
 
 ========== Id ==========  
 193

@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-React includes a stable implementation of React Hooks in 16.8 release for below
-packages
+React includes a stable implementation of React Hooks in 16.8 release for below packages
 
 1.  React DOM
 

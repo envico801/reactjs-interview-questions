@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-React Native can be tested only in mobile simulators like iOS and Android. You
-can run the app in your mobile using expo app (https://expo.io) Where it syncs
-using QR code, your mobile and computer should be in same wireless network.
+React Native can be tested only in mobile simulators like iOS and Android. You can run the app in your mobile using expo app (https://expo.io) Where it syncs using QR code, your mobile and computer should be in same wireless network.
 
 ========== Id ==========  
 137

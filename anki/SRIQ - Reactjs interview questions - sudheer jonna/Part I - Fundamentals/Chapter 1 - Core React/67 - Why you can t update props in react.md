@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The React philosophy is that props should be _immutable_(read only) and
-_top-down_. This means that a parent can send any prop values to a child, but
-the child can't modify received props.
+The React philosophy is that props should be _immutable_(read only) and _top-down_. This means that a parent can send any prop values to a child, but the child can't modify received props.
 
 ========== Id ==========  
 67

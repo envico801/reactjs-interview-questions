@@ -4,12 +4,7 @@
 
 ========== Answer ==========  
 
-React prevents component from re-rendering for each and every state update by
-grouping multiple state updates within an event handler. This strategy improves
-the application performance and this process known as **batching**. The older
-version of React only supported batching for browser events whereas React18
-supported for asynchronous actions, timeouts and intervals along with native
-events. This improved version of batching is called **automatic batching**.
+React prevents component from re-rendering for each and every state update by grouping multiple state updates within an event handler. This strategy improves the application performance and this process known as **batching**. The older version of React only supported batching for browser events whereas React18 supported for asynchronous actions, timeouts and intervals along with native events. This improved version of batching is called **automatic batching**.
 
 Let's demonstrate this automatic batching feature with a below example.
 
@@ -35,9 +30,7 @@ export default function BatchingState() {
 }
 ```
 
-The preceding code updated two state variables with in an event handler.
-However, React will perform automatic batching feature and the component will be
-re-rendered only once for better performance.
+The preceding code updated two state variables with in an event handler. However, React will perform automatic batching feature and the component will be re-rendered only once for better performance.
 
 ========== Id ==========  
 253

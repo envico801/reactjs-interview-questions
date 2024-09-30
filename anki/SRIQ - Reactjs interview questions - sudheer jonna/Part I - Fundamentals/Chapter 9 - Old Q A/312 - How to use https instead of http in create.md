@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You just need to use `HTTPS=true` configuration. You can edit your
-`package.json` scripts section:
+You just need to use `HTTPS=true` configuration. You can edit your `package.json` scripts section:
 
 ```json
 "scripts": {

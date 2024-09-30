@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-If the ref callback is defined as an inline function, it will get called twice
-during updates, first with null and then again with the DOM element. This is
-because a new instance of the function is created with each render, so React
-needs to clear the old ref and set up the new one.
+If the ref callback is defined as an inline function, it will get called twice during updates, first with null and then again with the DOM element. This is because a new instance of the function is created with each render, so React needs to clear the old ref and set up the new one.
 
 ```jsx
 class UserForm extends Component {
@@ -26,9 +23,7 @@ class UserForm extends Component {
 }
 ```
 
-But our expectation is for the ref callback to get called once, when the
-component mounts. One quick fix is to use the ES7 class property syntax to
-define the function
+But our expectation is for the ref callback to get called once, when the component mounts. One quick fix is to use the ES7 class property syntax to define the function
 
 ```jsx
 class UserForm extends Component {

@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You need to use `setInterval()` to trigger the change, but you also need to
-clear the timer when the component unmounts to prevent errors and memory leaks.
+You need to use `setInterval()` to trigger the change, but you also need to clear the timer when the component unmounts to prevent errors and memory leaks.
 
 ```javascript
 componentDidMount() {

@@ -4,11 +4,9 @@
 
 ========== Answer ==========  
 
-**React.forwardRef** accepts a render function as parameter and DevTools uses
-this function to determine what to display for the ref forwarding component.
+**React.forwardRef** accepts a render function as parameter and DevTools uses this function to determine what to display for the ref forwarding component.
 
-For example, If you don't name the render function or not using displayName
-property then it will appear as ”ForwardRef” in the DevTools,
+For example, If you don't name the render function or not using displayName property then it will appear as ”ForwardRef” in the DevTools,
 
 ```javascript
 const WrappedComponent = React.forwardRef((props, ref) => {
@@ -16,8 +14,7 @@ const WrappedComponent = React.forwardRef((props, ref) => {
 });
 ```
 
-But If you name the render function then it will appear as
-**”ForwardRef(myFunction)”**
+But If you name the render function then it will appear as **”ForwardRef(myFunction)”**
 
 ```javascript
 const WrappedComponent = React.forwardRef(function myFunction(props, ref) {
@@ -25,8 +22,7 @@ const WrappedComponent = React.forwardRef(function myFunction(props, ref) {
 });
 ```
 
-As an alternative, You can also set displayName property for forwardRef
-function,
+As an alternative, You can also set displayName property for forwardRef function,
 
 ```javascript
 function logProps(Component) {

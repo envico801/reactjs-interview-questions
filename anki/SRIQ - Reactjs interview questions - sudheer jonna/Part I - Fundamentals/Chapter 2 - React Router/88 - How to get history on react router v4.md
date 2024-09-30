@@ -6,8 +6,7 @@
 
 Below are the list of steps to get history object on React Router v4,
 
-1.  Create a module that exports a `history` object and import this module
-    across the project.
+1.  Create a module that exports a `history` object and import this module across the project.
 
     For example, create `history.js` file:
 
@@ -18,8 +17,7 @@ Below are the list of steps to get history object on React Router v4,
     });
     ```
 
-2.  You should use the `<Router>` component instead of built-in routers. Import
-    the above `history.js` inside `index.js` file:
+2.  You should use the `<Router>` component instead of built-in routers. Import the above `history.js` inside `index.js` file:
 
     ```jsx
     import { Router } from 'react-router-dom';
@@ -33,8 +31,7 @@ Below are the list of steps to get history object on React Router v4,
     );
     ```
 
-3.  You can also use push method of `history` object similar to built-in history
-    object:
+3.  You can also use push method of `history` object similar to built-in history object:
 
     ```javascript
     // some-other-file.js

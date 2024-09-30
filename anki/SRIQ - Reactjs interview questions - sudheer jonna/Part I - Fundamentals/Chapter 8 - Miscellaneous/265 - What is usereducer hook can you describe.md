@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-The `useReducer` hook is a React hook that provides an alternative to `useState`
-for managing complex state logic in functional components. It's particularly
-useful when you have state transitions that depend on the previous state or when
-the next state is determined by multiple sub-values.
+The `useReducer` hook is a React hook that provides an alternative to `useState` for managing complex state logic in functional components. It's particularly useful when you have state transitions that depend on the previous state or when the next state is determined by multiple sub-values.
 
 Here's a brief overview of `useReducer`:
 
@@ -23,8 +20,7 @@ Here's a brief overview of `useReducer`:
 
     - `dispatch`: A function to send actions to update the state
 
-    - `reducer`: A pure function that takes the current state and an action, and
-      returns the new state
+    - `reducer`: A pure function that takes the current state and an action, and returns the new state
 
     - `initialState`: The initial state value
 
@@ -59,32 +55,25 @@ export default Counter;
 
 In this example:
 
-1. We define a `counterReducer` function that specifies how the state should
-   change in response to different actions.
+1. We define a `counterReducer` function that specifies how the state should change in response to different actions.
 
-2. The `useReducer` hook is called with the reducer function and an initial
-   state.
+2. The `useReducer` hook is called with the reducer function and an initial state.
 
-3. We use the `dispatch` function to send actions to the reducer, which then
-   updates the state.
+3. We use the `dispatch` function to send actions to the reducer, which then updates the state.
 
 4. The component re-renders with the new state when an action is dispatched.
 
 Key benefits of `useReducer`:
 
-1. Centralized state logic: All state update logic is contained in the reducer
-   function.
+1. Centralized state logic: All state update logic is contained in the reducer function.
 
-2. Predictable state changes: The reducer must return a new state for any given
-   current state and action.
+2. Predictable state changes: The reducer must return a new state for any given current state and action.
 
 3. Easier testing: Reducer functions are pure and can be easily unit tested.
 
-4. Complex state transitions: Useful for managing state that involves multiple
-   sub-values or when the next state depends on the previous one.
+4. Complex state transitions: Useful for managing state that involves multiple sub-values or when the next state depends on the previous one.
 
-5. Performance optimization: Can be more efficient than `useState` for complex
-   state logic.
+5. Performance optimization: Can be more efficient than `useState` for complex state logic.
 
 ========== Id ==========  
 265

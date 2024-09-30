@@ -4,13 +4,9 @@
 
 ========== Answer ==========  
 
-A _higher-order component_ (_HOC_) is a function that takes a component and
-returns a new component. Basically, it's a pattern that is derived from React's
-compositional nature.
+A _higher-order component_ (_HOC_) is a function that takes a component and returns a new component. Basically, it's a pattern that is derived from React's compositional nature.
 
-We call them **pure components** because they can accept any dynamically
-provided child component but they won't modify or copy any behavior from their
-input components.
+We call them **pure components** because they can accept any dynamically provided child component but they won't modify or copy any behavior from their input components.
 
 ```javascript
 const EnhancedComponent = higherOrderComponent(WrappedComponent);

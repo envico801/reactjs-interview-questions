@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-`React.StrictMode` is a useful component for highlighting potential problems in
-an application. Just like `<Fragment>`, `<StrictMode>` does not render any extra
-DOM elements. It activates additional checks and warnings for its descendants.
-These checks apply for _development mode_ only.
+`React.StrictMode` is a useful component for highlighting potential problems in an application. Just like `<Fragment>`, `<StrictMode>` does not render any extra DOM elements. It activates additional checks and warnings for its descendants. These checks apply for _development mode_ only.
 
 ```jsx
 import { StrictMode } from 'react';
@@ -27,8 +24,7 @@ function App() {
 }
 ```
 
-In the example above, the _strict mode_ checks apply to `<ComponentOne>` and
-`<ComponentTwo>` components only. i.e., Part of the application only.
+In the example above, the _strict mode_ checks apply to `<ComponentOne>` and `<ComponentTwo>` components only. i.e., Part of the application only.
 
 **Note:** Frameworks such as NextJS has this flag enabled by default.
 

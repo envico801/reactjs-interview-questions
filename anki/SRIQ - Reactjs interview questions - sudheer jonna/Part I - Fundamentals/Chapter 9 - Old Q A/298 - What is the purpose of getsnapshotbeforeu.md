@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The new `getSnapshotBeforeUpdate()` lifecycle method is called right before DOM
-updates. The return value from this method will be passed as the third parameter
-to `componentDidUpdate()`.
+The new `getSnapshotBeforeUpdate()` lifecycle method is called right before DOM updates. The return value from this method will be passed as the third parameter to `componentDidUpdate()`.
 
 ```javascript
 class MyComponent extends React.Component {
@@ -16,8 +14,7 @@ class MyComponent extends React.Component {
 }
 ```
 
-This lifecycle method along with `componentDidUpdate()` covers all the use cases
-of `componentWillUpdate()`.
+This lifecycle method along with `componentDidUpdate()` covers all the use cases of `componentWillUpdate()`.
 
 ========== Id ==========  
 298

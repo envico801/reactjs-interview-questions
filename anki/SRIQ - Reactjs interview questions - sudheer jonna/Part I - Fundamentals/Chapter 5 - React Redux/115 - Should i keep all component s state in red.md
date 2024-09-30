@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Keep your data in the Redux store, and the UI related state internally in the
-component.
+Keep your data in the Redux store, and the UI related state internally in the component.
 
 ========== Id ==========  
 115

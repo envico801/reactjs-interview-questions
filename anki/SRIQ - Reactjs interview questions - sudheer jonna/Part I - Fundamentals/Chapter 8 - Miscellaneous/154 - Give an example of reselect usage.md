@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Let's take calculations and different amounts of a shipment order with the
-simplified usage of Reselect:
+Let's take calculations and different amounts of a shipment order with the simplified usage of Reselect:
 
 ```javascript
 import { createSelector } from 'reselect';

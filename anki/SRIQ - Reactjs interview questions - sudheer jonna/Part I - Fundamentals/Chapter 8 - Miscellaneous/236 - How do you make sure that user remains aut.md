@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-When a user logs in and reload, to persist the state generally we add the load
-user action in the useEffect hooks in the main App.js. While using Redux,
-loadUser action can be easily accessed.
+When a user logs in and reload, to persist the state generally we add the load user action in the useEffect hooks in the main App.js. While using Redux, loadUser action can be easily accessed.
 
 **App.js**
 
@@ -15,10 +13,7 @@ import { loadUser } from '../actions/auth';
 store.dispatch(loadUser());
 ```
 
--   But while using **Context API**, to access context in App.js, wrap the
-    AuthState in index.js so that App.js can access the auth context. Now
-    whenever the page reloads, no matter what route you are on, the user will be
-    authenticated as **loadUser** action will be triggered on each re-render.
+-   But while using **Context API**, to access context in App.js, wrap the AuthState in index.js so that App.js can access the auth context. Now whenever the page reloads, no matter what route you are on, the user will be authenticated as **loadUser** action will be triggered on each re-render.
 
 **index.js**
 

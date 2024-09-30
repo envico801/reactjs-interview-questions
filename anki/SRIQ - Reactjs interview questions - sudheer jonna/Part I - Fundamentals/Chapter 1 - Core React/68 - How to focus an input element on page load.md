@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You need to use `useEffect` hook to set focus on input field during page load
-time for functional component.
+You need to use `useEffect` hook to set focus on input field during page load time for functional component.
 
 ```jsx
 import React, { useEffect, useRef } from 'react';
@@ -28,8 +27,7 @@ ReactDOM.render(<App />, document.getElementById('app'));
 
   <p>
 
-You can do it by creating _ref_ for `input` element and using it in
-`componentDidMount()`:
+You can do it by creating _ref_ for `input` element and using it in `componentDidMount()`:
 
 ```jsx
 class App extends React.Component {

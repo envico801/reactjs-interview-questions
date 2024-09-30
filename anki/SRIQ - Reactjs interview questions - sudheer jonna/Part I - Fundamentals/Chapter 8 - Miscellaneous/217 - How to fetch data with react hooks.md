@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The effect hook called `useEffect` can be used to fetch data from an API and to
-set the data in the local state of the component with the useState hook’s update
-function.
+The effect hook called `useEffect` can be used to fetch data from an API and to set the data in the local state of the component with the useState hook’s update function.
 
 Here is an example of fetching a list of react articles from an API using fetch.
 
@@ -34,9 +32,7 @@ export default App;
 
 A popular way to simplify this is by using the library axios.
 
-We provided an empty array as second argument to the useEffect hook to avoid
-activating it on component updates. This way, it only fetches on component
-mount.
+We provided an empty array as second argument to the useEffect hook to avoid activating it on component updates. This way, it only fetches on component mount.
 
 ========== Id ==========  
 217

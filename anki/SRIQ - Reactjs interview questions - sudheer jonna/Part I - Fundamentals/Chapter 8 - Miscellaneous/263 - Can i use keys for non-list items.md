@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-Keys are primarily used for rendering list items but they are not just for list
-items. You can also use them React to distinguish components. By default, React
-uses order of the components in
+Keys are primarily used for rendering list items but they are not just for list items. You can also use them React to distinguish components. By default, React uses order of the components in
 
 ========== Id ==========  
 263

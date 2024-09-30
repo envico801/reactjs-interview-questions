@@ -4,12 +4,9 @@
 
 ========== Answer ==========  
 
-Keys should be stable, predictable, and unique so that React can keep track of
-elements.
+Keys should be stable, predictable, and unique so that React can keep track of elements.
 
-In the below code snippet each element's key will be based on ordering, rather
-than tied to the data that is being represented. This limits the optimizations
-that React can do and creates confusing bugs in the application.
+In the below code snippet each element's key will be based on ordering, rather than tied to the data that is being represented. This limits the optimizations that React can do and creates confusing bugs in the application.
 
 ```jsx
 {
@@ -17,9 +14,7 @@ that React can do and creates confusing bugs in the application.
 }
 ```
 
-If you use element data for unique key, assuming `todo.id` is unique to this
-list and stable, React would be able to reorder elements without needing to
-reevaluate them as much.
+If you use element data for unique key, assuming `todo.id` is unique to this list and stable, React would be able to reorder elements without needing to reevaluate them as much.
 
 ```jsx
 {
@@ -27,8 +22,7 @@ reevaluate them as much.
 }
 ```
 
-**Note:** If you don't specify `key` prop at all, React will use index as a
-key's value while iterating over an array of data.
+**Note:** If you don't specify `key` prop at all, React will use index as a key's value while iterating over an array of data.
 
 ========== Id ==========  
 45

@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-Regular function or class components don’t receive the ref argument, and ref is
-not available in props either. The second ref argument only exists when you
-define a component with React.forwardRef call.
+Regular function or class components don’t receive the ref argument, and ref is not available in props either. The second ref argument only exists when you define a component with React.forwardRef call.
 
 ========== Id ==========  
 350

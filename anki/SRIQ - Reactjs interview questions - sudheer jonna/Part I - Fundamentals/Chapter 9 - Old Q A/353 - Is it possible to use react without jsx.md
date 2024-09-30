@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-Yes, JSX is not mandatory for using React. Actually it is convenient when you
-don’t want to set up compilation in your build environment. Each JSX element is
-just syntactic sugar for calling
-`React.createElement(component, props, ...children)`.
+Yes, JSX is not mandatory for using React. Actually it is convenient when you don’t want to set up compilation in your build environment. Each JSX element is just syntactic sugar for calling `React.createElement(component, props, ...children)`.
 
 For example, let us take a greeting example with JSX,
 

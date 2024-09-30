@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-When the page loads, _React DevTools_ sets a global named
-`__REACT_DEVTOOLS_GLOBAL_HOOK__`, then React communicates with that hook during
-initialization. If the website is not using React or if React fails to
-communicate with DevTools then it won't show up the tab.
+When the page loads, _React DevTools_ sets a global named `__REACT_DEVTOOLS_GLOBAL_HOOK__`, then React communicates with that hook during initialization. If the website is not using React or if React fails to communicate with DevTools then it won't show up the tab.
 
 ========== Id ==========  
 149

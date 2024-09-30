@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-_React Transition Group_ and _React Motion_ are popular animation packages in
-React ecosystem.
+_React Transition Group_ and _React Motion_ are popular animation packages in React ecosystem.
 
 ========== Id ==========  
 76

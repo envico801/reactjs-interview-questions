@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-Behind the scenes, JSX is transformed into plain javascript objects. It is not
-possible to return two or more objects from a function without wrapping into an
-array. This is the reason you can't simply return two or more JSX tags from a
-function without
+Behind the scenes, JSX is transformed into plain javascript objects. It is not possible to return two or more objects from a function without wrapping into an array. This is the reason you can't simply return two or more JSX tags from a function without
 
 wrapping them into a single parent tag or a Fragment.
 

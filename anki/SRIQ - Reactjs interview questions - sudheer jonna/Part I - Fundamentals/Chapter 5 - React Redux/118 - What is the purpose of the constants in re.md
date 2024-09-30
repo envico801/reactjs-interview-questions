@@ -4,13 +4,9 @@
 
 ========== Answer ==========  
 
-Constants allows you to easily find all usages of that specific functionality
-across the project when you use an IDE. It also prevents you from introducing
-silly bugs caused by typos – in which case, you will get a `ReferenceError`
-immediately.
+Constants allows you to easily find all usages of that specific functionality across the project when you use an IDE. It also prevents you from introducing silly bugs caused by typos – in which case, you will get a `ReferenceError` immediately.
 
-Normally we will save them in a single file (`constants.js` or
-`actionTypes.js`).
+Normally we will save them in a single file (`constants.js` or `actionTypes.js`).
 
 ```javascript
 export const ADD_TODO = 'ADD_TODO';

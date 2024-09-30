@@ -4,11 +4,7 @@
 
 ========== Answer ==========  
 
-When the application is running in _development mode_, React will automatically
-check all props that we set on components to make sure they have _correct type_.
-If the type is incorrect, React will generate warning messages in the console.
-It's disabled in _production mode_ due to performance impact. The mandatory
-props are defined with `isRequired`.
+When the application is running in _development mode_, React will automatically check all props that we set on components to make sure they have _correct type_. If the type is incorrect, React will generate warning messages in the console. It's disabled in _production mode_ due to performance impact. The mandatory props are defined with `isRequired`.
 
 The set of predefined prop types:
 
@@ -53,8 +49,7 @@ class User extends React.Component {
 }
 ```
 
-**Note:** In React v15.5 _PropTypes_ were moved from `React.PropTypes` to
-`prop-types` library.
+**Note:** In React v15.5 _PropTypes_ were moved from `React.PropTypes` to `prop-types` library.
 
 _The Equivalent Functional Component_
 

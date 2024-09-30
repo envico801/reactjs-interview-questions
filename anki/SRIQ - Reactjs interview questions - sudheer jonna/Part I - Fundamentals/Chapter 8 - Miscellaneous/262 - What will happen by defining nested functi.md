@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-Technically it is possible to write nested function components but it is not
-suggested to write nested function definitions. Because it leads to unexpected
-bugs and performance issues.
+Technically it is possible to write nested function components but it is not suggested to write nested function definitions. Because it leads to unexpected bugs and performance issues.
 
 ========== Id ==========  
 262

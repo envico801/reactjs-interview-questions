@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-If the props on the component are changed without the component being refreshed,
-the new prop value will never be displayed because the constructor function will
-never update the current state of the component. The initialization of state
-from props only runs when the component is first created.
+If the props on the component are changed without the component being refreshed, the new prop value will never be displayed because the constructor function will never update the current state of the component. The initialization of state from props only runs when the component is first created.
 
 The below component won't display the updated input value:
 

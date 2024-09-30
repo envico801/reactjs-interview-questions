@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can use an _arrow function_ to wrap around an _event handler_ and pass
-parameters:
+You can use an _arrow function_ to wrap around an _event handler_ and pass parameters:
 
 ```jsx
 <button onClick={() => this.handleClick(id)} />
@@ -17,8 +16,7 @@ This is an equivalent to calling `.bind`:
 <button onClick={this.handleClick.bind(this, id)} />
 ```
 
-Apart from these two approaches, you can also pass arguments to a function which
-is defined as arrow function
+Apart from these two approaches, you can also pass arguments to a function which is defined as arrow function
 
 ```jsx
 <button onClick={this.handleClick(id)} />;

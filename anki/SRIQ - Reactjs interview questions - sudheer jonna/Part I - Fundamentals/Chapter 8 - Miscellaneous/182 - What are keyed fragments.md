@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The Fragments declared with the explicit <React.Fragment> syntax may have keys.
-The general use case is mapping a collection to an array of fragments as below,
+The Fragments declared with the explicit <React.Fragment> syntax may have keys. The general use case is mapping a collection to an array of fragments as below,
 
 ```javascript
 function Glossary(props) {
@@ -23,9 +22,7 @@ function Glossary(props) {
 }
 ```
 
-**Note:** key is the only attribute that can be passed to Fragment. In the
-future, there might be a support for additional attributes, such as event
-handlers.
+**Note:** key is the only attribute that can be passed to Fragment. In the future, there might be a support for additional attributes, such as event handlers.
 
 ========== Id ==========  
 182

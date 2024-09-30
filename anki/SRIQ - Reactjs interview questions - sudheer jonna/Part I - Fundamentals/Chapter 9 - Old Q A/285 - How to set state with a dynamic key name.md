@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-If you are using ES6 or the Babel transpiler to transform your JSX code then you
-can accomplish this with _computed property names_.
+If you are using ES6 or the Babel transpiler to transform your JSX code then you can accomplish this with _computed property names_.
 
 ```javascript
 handleInputChange(event) {

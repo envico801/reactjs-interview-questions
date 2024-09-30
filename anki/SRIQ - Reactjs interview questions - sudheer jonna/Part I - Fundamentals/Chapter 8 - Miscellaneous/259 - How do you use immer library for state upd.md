@@ -4,14 +4,11 @@
 
 ========== Answer ==========  
 
-Immer library enforces the immutability of state based on **copy-on-write**
-mechanism. It uses JavaScript proxy to keep track of updates to immutable
-states. Immer has 3 main states as below,
+Immer library enforces the immutability of state based on **copy-on-write** mechanism. It uses JavaScript proxy to keep track of updates to immutable states. Immer has 3 main states as below,
 
 1. **Current state:** It refers to actual state
 
-2. **Draft state:** All new changes will be applied to this state. In this
-   state, draft is just a proxy of the current state.
+2. **Draft state:** All new changes will be applied to this state. In this state, draft is just a proxy of the current state.
 
 3. **Next state:** It is formed after all mutations applied to the draft state
 
@@ -23,8 +20,7 @@ Immer can be used by following below instructions,
 
 3. The setter function of `useImmer` hook can be used to update the state.
 
-For example, the mutation syntax of immer library simplifies the nested address
-object of user state as follows,
+For example, the mutation syntax of immer library simplifies the nested address object of user state as follows,
 
 ```jsx
 import { useImmer } from 'use-immer';
@@ -42,8 +38,7 @@ setUser((draft) => {
 });
 ```
 
-The preceding code enables you to update nested objects with a conceise mutation
-syntax.
+The preceding code enables you to update nested objects with a conceise mutation syntax.
 
 ========== Id ==========  
 259

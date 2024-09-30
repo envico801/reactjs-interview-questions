@@ -4,13 +4,9 @@
 
 ========== Answer ==========  
 
-The `onClickCapture` React event is helpful to catch all the events of child
-elements irrespective of event propagation logic or even if the events
-propagation stopped. This is useful if you need to log every click events for
-analytics purpose.
+The `onClickCapture` React event is helpful to catch all the events of child elements irrespective of event propagation logic or even if the events propagation stopped. This is useful if you need to log every click events for analytics purpose.
 
-For example, the below code triggers the click event of parent first followed by
-second level child eventhough leaf child button elements stops the propagation.
+For example, the below code triggers the click event of parent first followed by second level child eventhough leaf child button elements stops the propagation.
 
 ```jsx
 <div onClickCapture={() => alert('parent')}>
@@ -23,13 +19,11 @@ second level child eventhough leaf child button elements stops the propagation.
 
 The event propagation for the above code snippet happens in the following order:
 
-1.  It travels downwards in the DOM tree by calling all `onClickCapture` event
-    handlers.
+1.  It travels downwards in the DOM tree by calling all `onClickCapture` event handlers.
 
 2.  It executes `onClick` event handler on the target element.
 
-3.  It travels upwards in the DOM tree by call all `onClick` event handlers
-    above to it.
+3.  It travels upwards in the DOM tree by call all `onClick` event handlers above to it.
 
 ========== Id ==========  
 251

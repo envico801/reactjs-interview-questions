@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-The Context API in React, along with the `useContext` hook, provides a way to
-share data across multiple components without explicitly passing props through
-each level of the component tree. This is particularly useful for passing global
-data or for cases where many components need access to the same data.
+The Context API in React, along with the `useContext` hook, provides a way to share data across multiple components without explicitly passing props through each level of the component tree. This is particularly useful for passing global data or for cases where many components need access to the same data.
 
 Here's an overview of how context works with the `useContext` hook:
 
@@ -17,13 +14,11 @@ Here's an overview of how context works with the `useContext` hook:
 
 2. Provide the context:
 
-    Wrap the parent component with a Context Provider to make the context
-    available to all child components.
+    Wrap the parent component with a Context Provider to make the context available to all child components.
 
 3. Consume the context:
 
-    Use the `useContext` hook in any child component to access the context
-    value.
+    Use the `useContext` hook in any child component to access the context value.
 
 Let's illustrate this with a simple example:
 
@@ -91,37 +86,27 @@ Let's break down how this works:
 
     - Provides a function to toggle the theme.
 
-    - Wraps its children with `ThemeContext.Provider`, passing the theme state
-      and toggle function as the context value.
+    - Wraps its children with `ThemeContext.Provider`, passing the theme state and toggle function as the context value.
 
 3. Child components (`ThemedButton` and `ThemedText`):
 
     - Use the `useContext` hook to access the theme context.
 
-    - Can read the current theme and call the toggle function without these
-      being passed as props.
+    - Can read the current theme and call the toggle function without these being passed as props.
 
-4. The `App` component wraps everything in `ThemeProvider`, making the theme
-   context available throughout the app.
+4. The `App` component wraps everything in `ThemeProvider`, making the theme context available throughout the app.
 
 Key benefits of using context with `useContext`:
 
-1. Avoids prop drilling: You don't need to pass props through intermediate
-   components.
+1. Avoids prop drilling: You don't need to pass props through intermediate components.
 
-2. Centralized state management: Useful for global states like themes, user
-   authentication, language preferences, etc.
+2. Centralized state management: Useful for global states like themes, user authentication, language preferences, etc.
 
-3. Component reusability: Components can be more easily reused as they're not
-   tightly coupled to their data source.
+3. Component reusability: Components can be more easily reused as they're not tightly coupled to their data source.
 
-4. Performance: Can potentially improve performance by reducing re-renders of
-   intermediate components.
+4. Performance: Can potentially improve performance by reducing re-renders of intermediate components.
 
-However, it's important to note that context should not be used for every type
-of state or prop. It's best suited for global or widely-used data. For local
-state or props that are only used by a few closely related components, regular
-state management or prop passing is often more appropriate.
+However, it's important to note that context should not be used for every type of state or prop. It's best suited for global or widely-used data. For local state or props that are only used by a few closely related components, regular state management or prop passing is often more appropriate.
 
 ========== Id ==========  
 267

@@ -4,15 +4,11 @@
 
 ========== Answer ==========  
 
-ContextType is used to consume the context object. The contextType property can
-be used in two ways,
+ContextType is used to consume the context object. The contextType property can be used in two ways,
 
 1.  **contextType as property of class:**
 
-    The contextType property on a class can be assigned a Context object created
-    by React.createContext(). After that, you can consume the nearest current
-    value of that Context type using this.context in any of the lifecycle
-    methods and render function.
+    The contextType property on a class can be assigned a Context object created by React.createContext(). After that, you can consume the nearest current value of that Context type using this.context in any of the lifecycle methods and render function.
 
     Lets assign contextType property on MyClass as below,
 
@@ -40,8 +36,7 @@ be used in two ways,
 
 2.  **Static field**
 
-    You can use a static class field to initialize your contextType using public
-    class field syntax.
+    You can use a static class field to initialize your contextType using public class field syntax.
 
     ```javascript
     class MyClass extends React.Component {

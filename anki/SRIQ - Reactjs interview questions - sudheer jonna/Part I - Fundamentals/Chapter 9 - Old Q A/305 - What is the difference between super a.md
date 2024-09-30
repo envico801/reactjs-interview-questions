@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-When you want to access `this.props` in `constructor()` then you should pass
-props to `super()` method.
+When you want to access `this.props` in `constructor()` then you should pass props to `super()` method.
 
 **Using `super(props)`:**
 

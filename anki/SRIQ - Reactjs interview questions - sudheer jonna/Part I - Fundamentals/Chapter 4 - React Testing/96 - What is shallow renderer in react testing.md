@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-_Shallow rendering_ is useful for writing unit test cases in React. It lets you
-render a component _one level deep_ and assert facts about what its render
-method returns, without worrying about the behavior of child components, which
-are not instantiated or rendered.
+_Shallow rendering_ is useful for writing unit test cases in React. It lets you render a component _one level deep_ and assert facts about what its render method returns, without worrying about the behavior of child components, which are not instantiated or rendered.
 
 For example, if you have the following component:
 

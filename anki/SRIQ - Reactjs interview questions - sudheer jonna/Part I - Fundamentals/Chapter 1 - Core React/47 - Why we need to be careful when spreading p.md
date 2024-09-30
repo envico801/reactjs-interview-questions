@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-When we _spread props_ we run into the risk of adding unknown HTML attributes,
-which is a bad practice. Instead we can use prop destructuring with `...rest`
-operator, so it will add only required props.
+When we _spread props_ we run into the risk of adding unknown HTML attributes, which is a bad practice. Instead we can use prop destructuring with `...rest` operator, so it will add only required props.
 
 For example,
 

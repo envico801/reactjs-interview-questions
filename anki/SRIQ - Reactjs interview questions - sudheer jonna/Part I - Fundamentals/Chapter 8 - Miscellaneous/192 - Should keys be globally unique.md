@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The keys used within arrays should be unique among their siblings but they don’t
-need to be globally unique. i.e, You can use the same keys with two different
-arrays.
+The keys used within arrays should be unique among their siblings but they don’t need to be globally unique. i.e, You can use the same keys with two different arrays.
 
 For example, the below `Book` component uses two arrays with different arrays,
 

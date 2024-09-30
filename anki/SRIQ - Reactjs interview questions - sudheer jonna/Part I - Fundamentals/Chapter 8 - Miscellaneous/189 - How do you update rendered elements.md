@@ -4,11 +4,9 @@
 
 ========== Answer ==========  
 
-You can update UI(represented by rendered element) by passing the newly created
-element to ReactDOM's render method.
+You can update UI(represented by rendered element) by passing the newly created element to ReactDOM's render method.
 
-For example, lets take a ticking clock example, where it updates the time by
-calling render method multiple times,
+For example, lets take a ticking clock example, where it updates the time by calling render method multiple times,
 
 ```javascript
 function tick() {

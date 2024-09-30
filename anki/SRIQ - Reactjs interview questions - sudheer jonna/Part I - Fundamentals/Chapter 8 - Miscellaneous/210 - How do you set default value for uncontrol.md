@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-In React, the value attribute on form elements will override the value in the
-DOM. With an uncontrolled component, you might want React to specify the initial
-value, but leave subsequent updates uncontrolled. To handle this case, you can
-specify a **defaultValue** attribute instead of **value**.
+In React, the value attribute on form elements will override the value in the DOM. With an uncontrolled component, you might want React to specify the initial value, but leave subsequent updates uncontrolled. To handle this case, you can specify a **defaultValue** attribute instead of **value**.
 
 ```javascript
 render() {
@@ -26,8 +23,7 @@ render() {
 }
 ```
 
-The same applies for `select` and `textArea` inputs. But you need to use
-**defaultChecked** for `checkbox` and `radio` inputs.
+The same applies for `select` and `textArea` inputs. But you need to use **defaultChecked** for `checkbox` and `radio` inputs.
 
 ========== Id ==========  
 210

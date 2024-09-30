@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-_Ref forwarding_ is a feature that lets some components take a _ref_ they
-receive, and pass it further down to a child.
+_Ref forwarding_ is a feature that lets some components take a _ref_ they receive, and pass it further down to a child.
 
 ```jsx
 const ButtonElement = React.forwardRef((props, ref) => (

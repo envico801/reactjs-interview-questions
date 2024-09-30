@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can prevent component from rendering by returning null based on specific
-condition. This way it can conditionally render component.
+You can prevent component from rendering by returning null based on specific condition. This way it can conditionally render component.
 
 ```javascript
 function Greeting(props) {
@@ -33,8 +32,7 @@ class User extends React.Component {
   }
 ```
 
-In the above example, the `greeting` component skips its rendering section by
-applying condition and returning null value.
+In the above example, the `greeting` component skips its rendering section by applying condition and returning null value.
 
 ========== Id ==========  
 344

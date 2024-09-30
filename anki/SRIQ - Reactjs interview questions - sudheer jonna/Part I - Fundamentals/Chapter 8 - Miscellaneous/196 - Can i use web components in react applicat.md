@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-Yes, you can use web components in a react application. Even though many
-developers won't use this combination, it may require especially if you are
-using third-party UI components that are written using Web Components.
+Yes, you can use web components in a react application. Even though many developers won't use this combination, it may require especially if you are using third-party UI components that are written using Web Components.
 
 For example, let us use `Vaadin` date picker web component as below,
 

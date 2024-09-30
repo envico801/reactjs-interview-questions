@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-MobX is a simple, scalable and battle tested state management solution for
-applying functional reactive programming (TFRP). For ReactJS application, you
-need to install below packages,
+MobX is a simple, scalable and battle tested state management solution for applying functional reactive programming (TFRP). For ReactJS application, you need to install below packages,
 
 ```bash
 npm install mobx --save

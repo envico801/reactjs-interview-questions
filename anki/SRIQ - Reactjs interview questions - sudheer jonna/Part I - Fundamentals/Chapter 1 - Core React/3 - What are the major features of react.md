@@ -6,14 +6,11 @@
 
 The major features of React are:
 
--   Uses **JSX** syntax, a syntax extension of JS that allows developers to
-    write HTML in their JS code.
+-   Uses **JSX** syntax, a syntax extension of JS that allows developers to write HTML in their JS code.
 
--   It uses **Virtual DOM** instead of Real DOM considering that Real DOM
-    manipulations are expensive.
+-   It uses **Virtual DOM** instead of Real DOM considering that Real DOM manipulations are expensive.
 
--   Supports **server-side rendering** which is useful for Search Engine
-    Optimizations(SEO).
+-   Supports **server-side rendering** which is useful for Search Engine Optimizations(SEO).
 
 -   Follows **Unidirectional or one-way** data flow or data binding.
 

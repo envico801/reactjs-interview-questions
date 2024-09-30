@@ -4,12 +4,9 @@
 
 ========== Answer ==========  
 
-If the behaviour of a component is dependent on the _state_ of the component
-then it can be termed as stateful component. These _stateful components_ are
-either function components with hooks or _class components_.
+If the behaviour of a component is dependent on the _state_ of the component then it can be termed as stateful component. These _stateful components_ are either function components with hooks or _class components_.
 
-Let's take an example of function stateful component which update the state
-based on click event,
+Let's take an example of function stateful component which update the state based on click event,
 
 ```javascript
 import React, {useState} from 'react';
@@ -31,8 +28,7 @@ return (
 
 <p>
 
-The equivalent class stateful component with a state that gets initialized in
-the `constructor`.
+The equivalent class stateful component with a state that gets initialized in the `constructor`.
 
 ```jsx
 class App extends Component {

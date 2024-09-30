@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-If you want to pass an array of objects to a component with a particular shape
-then use `React.PropTypes.shape()` as an argument to
-`React.PropTypes.arrayOf()`.
+If you want to pass an array of objects to a component with a particular shape then use `React.PropTypes.shape()` as an argument to `React.PropTypes.arrayOf()`.
 
 ```javascript
 ReactComponent.propTypes = {

@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Formik is a small react form library that helps you with the three major
-problems,
+Formik is a small react form library that helps you with the three major problems,
 
 1.  Getting values in and out of form state
 

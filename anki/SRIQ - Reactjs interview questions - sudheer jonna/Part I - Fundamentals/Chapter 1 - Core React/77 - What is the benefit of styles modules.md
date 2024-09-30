@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-It is recommended to avoid hard coding style values in components. Any values
-that are likely to be used across different UI components should be extracted
-into their own modules.
+It is recommended to avoid hard coding style values in components. Any values that are likely to be used across different UI components should be extracted into their own modules.
 
 For example, these styles could be extracted into a separate component:
 

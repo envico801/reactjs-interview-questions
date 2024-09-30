@@ -12,8 +12,7 @@ There are couple of advantages compared to Jasmine:
 
 -   Allows you to test asynchronous code synchronously.
 
--   Runs your tests with a fake DOM implementation (via `jsdom`) so that your
-    tests can be run on the command line.
+-   Runs your tests with a fake DOM implementation (via `jsdom`) so that your tests can be run on the command line.
 
 -   Runs tests in parallel processes so that they finish sooner.
 

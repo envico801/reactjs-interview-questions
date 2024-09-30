@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-You can use the `useState` hook to manage the width and height state variables,
-and the `useEffect` hook to add and remove the `resize` event listener. The `[]`
-dependency array passed to useEffect ensures that the effect only runs once (on
-mount) and not on every re-render.
+You can use the `useState` hook to manage the width and height state variables, and the `useEffect` hook to add and remove the `resize` event listener. The `[]` dependency array passed to useEffect ensures that the effect only runs once (on mount) and not on every re-render.
 
 ```javascript
 import React, { useState, useEffect } from 'react';
@@ -38,9 +35,7 @@ function WindowDimensions() {
 
 <summary><h4>Using Class Component</h4></summary>
 
-You can listen to the `resize` event in `componentDidMount()` and then update
-the dimensions (`width` and `height`). You should remove the listener in
-`componentWillUnmount()` method.
+You can listen to the `resize` event in `componentDidMount()` and then update the dimensions (`width` and `height`). You should remove the listener in `componentWillUnmount()` method.
 
 ```javascript
 class WindowDimensions extends React.Component {

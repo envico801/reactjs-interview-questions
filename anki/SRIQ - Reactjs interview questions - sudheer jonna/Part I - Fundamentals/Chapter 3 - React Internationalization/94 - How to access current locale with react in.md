@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can get the current locale in any component of your application using
-`injectIntl()`:
+You can get the current locale in any component of your application using `injectIntl()`:
 
 ```jsx
 import { injectIntl, intlShape } from 'react-intl';

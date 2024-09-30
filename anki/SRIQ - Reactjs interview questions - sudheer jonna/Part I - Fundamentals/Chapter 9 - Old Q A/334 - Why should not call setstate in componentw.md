@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You should not call `setState()` in `componentWillUnmount()` because once a
-component instance is unmounted, it will never be mounted again.
+You should not call `setState()` in `componentWillUnmount()` because once a component instance is unmounted, it will never be mounted again.
 
 ========== Id ==========  
 334

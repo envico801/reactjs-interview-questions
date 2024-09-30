@@ -6,10 +6,7 @@
 
 There are two approaches
 
-1. This is a recently added approach. _Refs_ are created using
-   `React.createRef()` method and attached to React elements via the `ref`
-   attribute. In order to use _refs_ throughout the component, just assign the
-   _ref_ to the instance property within constructor.
+1. This is a recently added approach. _Refs_ are created using `React.createRef()` method and attached to React elements via the `ref` attribute. In order to use _refs_ throughout the component, just assign the _ref_ to the instance property within constructor.
 
 ```jsx
 class MyComponent extends React.Component {
@@ -23,8 +20,7 @@ class MyComponent extends React.Component {
 }
 ```
 
-2. You can also use ref callbacks approach regardless of React version. For
-   example, the search bar component's input element is accessed as follows,
+2. You can also use ref callbacks approach regardless of React version. For example, the search bar component's input element is accessed as follows,
 
 ```jsx
 class SearchBar extends Component {
@@ -53,8 +49,7 @@ class SearchBar extends Component {
 
 You can also use _refs_ in function components using **closures**.
 
-**Note**: You can also use inline ref callbacks even though it is not a
-recommended approach.
+**Note**: You can also use inline ref callbacks even though it is not a recommended approach.
 
 ========== Id ==========  
 276

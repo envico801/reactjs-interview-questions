@@ -4,11 +4,9 @@
 
 ========== Answer ==========  
 
-**Context** is designed to share data that can be considered **global** for a
-tree of React components.
+**Context** is designed to share data that can be considered **global** for a tree of React components.
 
-For example, in the code below lets manually thread through a “theme” prop in
-order to style the Button component.
+For example, in the code below lets manually thread through a “theme” prop in order to style the Button component.
 
 ```javascript
 //Lets create a context with a default theme value "luna"

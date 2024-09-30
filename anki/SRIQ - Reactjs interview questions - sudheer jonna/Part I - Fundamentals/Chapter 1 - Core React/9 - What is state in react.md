@@ -4,16 +4,11 @@
 
 ========== Answer ==========  
 
-_State_ of a component is an object that holds some information that may change
-over the lifetime of the component. The important point is whenever the state
-object changes, the component re-renders. It is always recommended to make our
-state as simple as possible and minimize the number of stateful components.
+_State_ of a component is an object that holds some information that may change over the lifetime of the component. The important point is whenever the state object changes, the component re-renders. It is always recommended to make our state as simple as possible and minimize the number of stateful components.
 
 ![state](../../../../images/state.jpg)
 
-Let's take an example of **User** component with `message` state. Here,
-**useState** hook has been used to add state to the User component and it
-returns an array with current state and function to update it.
+Let's take an example of **User** component with `message` state. Here, **useState** hook has been used to add state to the User component and it returns an array with current state and function to update it.
 
 ```jsx
 import { useState } from 'react';
@@ -27,8 +22,7 @@ function User() {
 }
 ```
 
-Whenever React calls your component or access `useState` hook, it gives you a
-snapshot of the state for that particular render.
+Whenever React calls your component or access `useState` hook, it gives you a snapshot of the state for that particular render.
 
 <details><summary><b>See Class</b></summary>
 
@@ -57,9 +51,7 @@ class User extends React.Component {
 
 </details>
 
-State is similar to props, but it is private and fully controlled by the
-component ,i.e., it is not accessible to any other component till the owner
-component decides to pass it.
+State is similar to props, but it is private and fully controlled by the component ,i.e., it is not accessible to any other component till the owner component decides to pass it.
 
 ========== Id ==========  
 9

@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-An _Element_ is a plain object describing what you want to appear on the screen
-in terms of the DOM nodes or other components. _Elements_ can contain other
-_Elements_ in their props. Creating a React element is cheap. Once an element is
-created, it cannot be mutated.
+An _Element_ is a plain object describing what you want to appear on the screen in terms of the DOM nodes or other components. _Elements_ can contain other _Elements_ in their props. Creating a React element is cheap. Once an element is created, it cannot be mutated.
 
 The JavaScript representation(Without JSX) of React Element would be as follows:
 
@@ -35,9 +32,7 @@ The above `React.createElement()` function returns an object as below:
 
 Finally, this element renders to the DOM using `ReactDOM.render()`.
 
-Whereas a **component** can be declared in several different ways. It can be a
-class with a `render()` method or it can be defined as a function. In either
-case, it takes props as an input, and returns a JSX tree as the output:
+Whereas a **component** can be declared in several different ways. It can be a class with a `render()` method or it can be defined as a function. In either case, it takes props as an input, and returns a JSX tree as the output:
 
 ```javascript
 const Button = ({ handleLogin }) => (

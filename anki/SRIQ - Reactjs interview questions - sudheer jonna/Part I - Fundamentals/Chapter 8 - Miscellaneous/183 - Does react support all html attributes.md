@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-As of React 16, both standard or custom DOM attributes are fully supported.
-Since React components often take both custom and DOM-related props, React uses
-the camelCase convention just like the DOM APIs.
+As of React 16, both standard or custom DOM attributes are fully supported. Since React components often take both custom and DOM-related props, React uses the camelCase convention just like the DOM APIs.
 
 Let us take few props with respect to standard HTML attributes,
 
@@ -16,8 +14,7 @@ Let us take few props with respect to standard HTML attributes,
 <input readOnly={true} />  // Just like node.readOnly DOM API
 ```
 
-These props work similarly to the corresponding HTML attributes, with the
-exception of the special cases. It also support all SVG attributes.
+These props work similarly to the corresponding HTML attributes, with the exception of the special cases. It also support all SVG attributes.
 
 ========== Id ==========  
 183

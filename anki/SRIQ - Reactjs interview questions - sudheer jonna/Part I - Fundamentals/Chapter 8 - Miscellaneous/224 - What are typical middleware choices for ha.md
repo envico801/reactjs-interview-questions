@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Some of the popular middleware choices for handling asynchronous calls in Redux
-eco system are `Redux Thunk, Redux Promise, Redux Saga`.
+Some of the popular middleware choices for handling asynchronous calls in Redux eco system are `Redux Thunk, Redux Promise, Redux Saga`.
 
 ========== Id ==========  
 224

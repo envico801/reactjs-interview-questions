@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-You could use the ref prop to acquire a reference to the underlying
-`HTMLInputElement` object through a callback, store the reference as a class
-property, then use that reference to later trigger a click from your event
-handlers using the `HTMLElement.click` method.
+You could use the ref prop to acquire a reference to the underlying `HTMLInputElement` object through a callback, store the reference as a class property, then use that reference to later trigger a click from your event handlers using the `HTMLElement.click` method.
 
 This can be done in two steps:
 

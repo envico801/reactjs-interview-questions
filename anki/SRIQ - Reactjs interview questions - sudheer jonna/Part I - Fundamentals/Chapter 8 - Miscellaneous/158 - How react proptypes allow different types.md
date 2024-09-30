@@ -6,8 +6,7 @@
 
 You can use `oneOfType()` method of `PropTypes`.
 
-For example, the height property can be defined with either `string` or `number`
-type as below:
+For example, the height property can be defined with either `string` or `number` type as below:
 
 ```javascript
 Component.propTypes = {

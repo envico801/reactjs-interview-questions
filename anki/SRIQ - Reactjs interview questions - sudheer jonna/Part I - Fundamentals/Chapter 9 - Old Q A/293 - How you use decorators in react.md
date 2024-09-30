@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-You can _decorate_ your _class_ components, which is the same as passing the
-component into a function. **Decorators** are flexible and readable way of
-modifying component functionality.
+You can _decorate_ your _class_ components, which is the same as passing the component into a function. **Decorators** are flexible and readable way of modifying component functionality.
 
 ```jsx
 @setTitle('Profile')
@@ -30,8 +28,7 @@ const setTitle = (title) => (WrappedComponent) => {
 };
 ```
 
-**Note:** Decorators are a feature that didn't make it into ES7, but are
-currently a _stage 2 proposal_.
+**Note:** Decorators are a feature that didn't make it into ES7, but are currently a _stage 2 proposal_.
 
 ========== Id ==========  
 293

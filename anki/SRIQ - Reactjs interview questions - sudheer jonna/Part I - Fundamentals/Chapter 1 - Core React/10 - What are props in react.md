@@ -4,13 +4,9 @@
 
 ========== Answer ==========  
 
-_Props_ are inputs to components. They are single values or objects containing a
-set of values that are passed to components on creation similar to HTML-tag
-attributes. Here, the data is passed down from a parent component to a child
-component.
+_Props_ are inputs to components. They are single values or objects containing a set of values that are passed to components on creation similar to HTML-tag attributes. Here, the data is passed down from a parent component to a child component.
 
-The primary purpose of props in React is to provide following component
-functionality:
+The primary purpose of props in React is to provide following component functionality:
 
 1. Pass custom data to your component.
 
@@ -24,9 +20,7 @@ For example, let us create an element with `reactProp` property:
 <Element reactProp={'1'} />
 ```
 
-This `reactProp` (or whatever you came up with) attribute name then becomes a
-property attached to React's native props object which originally already exists
-on all components created using React library.
+This `reactProp` (or whatever you came up with) attribute name then becomes a property attached to React's native props object which originally already exists on all components created using React library.
 
 ```jsx
 props.reactProp;
@@ -56,10 +50,7 @@ const ParentComponent = () => {
 };
 ```
 
-The properties from props object can be accessed directly using destructing
-feature from ES6 (ECMAScript 2015). It is also possible to fallback to default
-value when the prop value is not specified. The above child component can be
-simplified like below.
+The properties from props object can be accessed directly using destructing feature from ES6 (ECMAScript 2015). It is also possible to fallback to default value when the prop value is not specified. The above child component can be simplified like below.
 
 ```jsx
 const ChildComponent = ({ name, age, gender = 'male' }) => {
@@ -73,9 +64,7 @@ const ChildComponent = ({ name, age, gender = 'male' }) => {
 };
 ```
 
-**Note:** The default value won't be used if you pass `null` or `0` value. i.e,
-default value is only used if the prop value is missed or `undefined` value has
-been passed.
+**Note:** The default value won't be used if you pass `null` or `0` value. i.e, default value is only used if the prop value is missed or `undefined` value has been passed.
 
   <details><summary><b>See Class</b></summary>
 

@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-You can use AJAX libraries such as Axios, jQuery AJAX, and the browser built-in
-`fetch`. You should fetch data in the `componentDidMount()` lifecycle method.
-This is so you can use `setState()` to update your component when the data is
-retrieved.
+You can use AJAX libraries such as Axios, jQuery AJAX, and the browser built-in `fetch`. You should fetch data in the `componentDidMount()` lifecycle method. This is so you can use `setState()` to update your component when the data is retrieved.
 
 For example, the employees list fetched from API and set local state:
 

@@ -4,37 +4,29 @@
 
 ========== Answer ==========  
 
-The Page Router and App Router are two different routing systems in Next.js,
-with the App Router being the newer and more feature-rich option. Let's compare
-them:
+The Page Router and App Router are two different routing systems in Next.js, with the App Router being the newer and more feature-rich option. Let's compare them:
 
 1. Structure:
 
     - Page Router: Uses a file-system based routing in the `pages` directory.
 
-    - App Router: Uses a new `app` directory with a more flexible file-system
-      based routing.
+    - App Router: Uses a new `app` directory with a more flexible file-system based routing.
 
 2. Rendering Model:
 
-    - Page Router: Primarily uses client-side rendering with options for
-      server-side rendering.
+    - Page Router: Primarily uses client-side rendering with options for server-side rendering.
 
-    - App Router: Defaults to server-side rendering with client-side rendering
-      as an option.
+    - App Router: Defaults to server-side rendering with client-side rendering as an option.
 
 3. Data Fetching:
 
-    - Page Router: Uses methods like `getServerSideProps`, `getStaticProps`, and
-      `getInitialProps`.
+    - Page Router: Uses methods like `getServerSideProps`, `getStaticProps`, and `getInitialProps`.
 
-    - App Router: Introduces new data fetching methods within React components,
-      supporting both client and server components.
+    - App Router: Introduces new data fetching methods within React components, supporting both client and server components.
 
 4. Layouts:
 
-    - Page Router: Requires manual implementation of layouts, often using Higher
-      Order Components or custom \_app.js files.
+    - Page Router: Requires manual implementation of layouts, often using Higher Order Components or custom \_app.js files.
 
     - App Router: Has built-in support for nested layouts using layout.js files.
 
@@ -42,8 +34,7 @@ them:
 
     - Page Router: Requires manual implementation of loading states.
 
-    - App Router: Provides built-in support for loading UI with loading.js
-      files.
+    - App Router: Provides built-in support for loading UI with loading.js files.
 
 6. Error Handling:
 
@@ -53,32 +44,27 @@ them:
 
 7. Static and Dynamic Rendering:
 
-    - Page Router: Configured through separate functions like `getStaticProps`
-      and `getServerSideProps`.
+    - Page Router: Configured through separate functions like `getStaticProps` and `getServerSideProps`.
 
-    - App Router: Uses a single `fetch` function with caching options to
-      determine rendering method.
+    - App Router: Uses a single `fetch` function with caching options to determine rendering method.
 
 8. Middleware:
 
     - Page Router: Middleware applies to all routes.
 
-    - App Router: Allows more granular middleware application, including
-      per-route basis.
+    - App Router: Allows more granular middleware application, including per-route basis.
 
 9. Route Groups:
 
     - Page Router: Does not have a concept of route groups.
 
-    - App Router: Introduces route groups for better organization without
-      affecting the URL structure.
+    - App Router: Introduces route groups for better organization without affecting the URL structure.
 
 10. Parallel Routes:
 
     - Page Router: Does not support parallel routes.
 
-    - App Router: Allows rendering multiple pages in the same layout
-      simultaneously.
+    - App Router: Allows rendering multiple pages in the same layout simultaneously.
 
 Let's illustrate some of these differences with code examples:
 
@@ -152,23 +138,15 @@ export default function Error({ error, reset }) {
 
 Key observations from these examples:
 
-1. In the Page Router, all components are client-side by default. In the App
-   Router, components are server-side by default, and we use the 'use client'
-   directive for client-side components.
+1. In the Page Router, all components are client-side by default. In the App Router, components are server-side by default, and we use the 'use client' directive for client-side components.
 
-2. The App Router introduces new files like `layout.js`, `loading.js`, and
-   `error.js` for handling common patterns.
+2. The App Router introduces new files like `layout.js`, `loading.js`, and `error.js` for handling common patterns.
 
-3. The file structure in the `app` directory directly corresponds to the URL
-   structure, similar to the `pages` directory but with more flexibility.
+3. The file structure in the `app` directory directly corresponds to the URL structure, similar to the `pages` directory but with more flexibility.
 
-4. The App Router separates the layout (`layout.js`) from the page content
-   (`page.js`), allowing for more reusable and maintainable code.
+4. The App Router separates the layout (`layout.js`) from the page content (`page.js`), allowing for more reusable and maintainable code.
 
-The App Router is generally recommended for new projects due to its improved
-performance and developer experience. However, the Page Router is still
-supported and may be preferred for certain use cases or when maintaining
-existing projects.
+The App Router is generally recommended for new projects due to its improved performance and developer experience. However, the Page Router is still supported and may be preferred for certain use cases or when maintaining existing projects.
 
 ========== Id ==========  
 270

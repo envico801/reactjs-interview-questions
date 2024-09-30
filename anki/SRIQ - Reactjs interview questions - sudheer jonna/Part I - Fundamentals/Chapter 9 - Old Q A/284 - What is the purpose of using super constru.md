@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-A child class constructor cannot make use of `this` reference until the
-`super()` method has been called. The same applies to ES6 sub-classes as well.
-The main reason for passing props parameter to `super()` call is to access
-`this.props` in your child constructors.
+A child class constructor cannot make use of `this` reference until the `super()` method has been called. The same applies to ES6 sub-classes as well. The main reason for passing props parameter to `super()` call is to access `this.props` in your child constructors.
 
 **Passing props:**
 
@@ -37,8 +34,7 @@ class MyComponent extends React.Component {
 }
 ```
 
-The above code snippets reveals that `this.props` is different only within the
-constructor. It would be the same outside the constructor.
+The above code snippets reveals that `this.props` is different only within the constructor. It would be the same outside the constructor.
 
 ========== Id ==========  
 284

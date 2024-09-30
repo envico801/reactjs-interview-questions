@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Below methods are called when there is an error during rendering, in a lifecycle
-method, or in the constructor of any child component.
+Below methods are called when there is an error during rendering, in a lifecycle method, or in the constructor of any child component.
 
 1.  static getDerivedStateFromError()
 

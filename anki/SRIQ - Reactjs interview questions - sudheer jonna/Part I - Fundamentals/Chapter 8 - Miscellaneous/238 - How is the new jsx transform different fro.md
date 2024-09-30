@@ -4,11 +4,9 @@
 
 ========== Answer ==========  
 
-The new JSX transform doesn’t require React to be in scope. i.e, You don't need
-to import React package for simple scenarios.
+The new JSX transform doesn’t require React to be in scope. i.e, You don't need to import React package for simple scenarios.
 
-Let's take an example to look at the main differences between the old and the
-new transform,
+Let's take an example to look at the main differences between the old and the new transform,
 
 **Old Transform:**
 

@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-It is preferred to use _callback refs_ over `findDOMNode()` API. Because
-`findDOMNode()` prevents certain improvements in React in the future.
+It is preferred to use _callback refs_ over `findDOMNode()` API. Because `findDOMNode()` prevents certain improvements in React in the future.
 
 The **legacy** approach of using `findDOMNode`:
 

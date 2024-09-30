@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The `react-dom` package provides _DOM-specific methods_ that can be used at the
-top level of your app. Most of the components are not required to use this
-module. Some of the methods of this package are:
+The `react-dom` package provides _DOM-specific methods_ that can be used at the top level of your app. Most of the components are not required to use this module. Some of the methods of this package are:
 
 1. `render()`
 

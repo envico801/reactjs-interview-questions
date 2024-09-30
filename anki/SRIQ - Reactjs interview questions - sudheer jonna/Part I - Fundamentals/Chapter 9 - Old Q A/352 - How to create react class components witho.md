@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-If you don’t use ES6 then you may need to use the create-react-class module
-instead. For default props, you need to define getDefaultProps() as a function
-on the passed object. Whereas for initial state, you have to provide a separate
-getInitialState method that returns the initial state.
+If you don’t use ES6 then you may need to use the create-react-class module instead. For default props, you need to define getDefaultProps() as a function on the passed object. Whereas for initial state, you have to provide a separate getInitialState method that returns the initial state.
 
 ```javascript
 var Greeting = createReactClass({
@@ -28,9 +25,7 @@ var Greeting = createReactClass({
 });
 ```
 
-**Note:** If you use createReactClass then auto binding is available for all
-methods. i.e, You don't need to use `.bind(this)` with in constructor for event
-handlers.
+**Note:** If you use createReactClass then auto binding is available for all methods. i.e, You don't need to use `.bind(this)` with in constructor for event handlers.
 
 ========== Id ==========  
 352

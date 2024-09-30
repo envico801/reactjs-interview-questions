@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-If you are rendering your component using JSX, the name of that component has to
-begin with a capital letter otherwise React will throw an error as an
-unrecognized tag. This convention is because only HTML elements and SVG tags can
-begin with a lowercase letter.
+If you are rendering your component using JSX, the name of that component has to begin with a capital letter otherwise React will throw an error as an unrecognized tag. This convention is because only HTML elements and SVG tags can begin with a lowercase letter.
 
 ```jsx
 function SomeComponent {
@@ -15,8 +12,7 @@ function SomeComponent {
 }
 ```
 
-You can define function component whose name starts with lowercase letter, but
-when it's imported it should have a capital letter. Here lowercase is fine:
+You can define function component whose name starts with lowercase letter, but when it's imported it should have a capital letter. Here lowercase is fine:
 
 ```jsx
 function myComponent {

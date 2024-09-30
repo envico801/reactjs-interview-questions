@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-We can pass `numbers` as `props` to React component using curly braces `{}`
-where as `strings` in double quotes `""` or single quotes `''`
+We can pass `numbers` as `props` to React component using curly braces `{}` where as `strings` in double quotes `""` or single quotes `''`
 
 ```jsx
 import React from 'react';

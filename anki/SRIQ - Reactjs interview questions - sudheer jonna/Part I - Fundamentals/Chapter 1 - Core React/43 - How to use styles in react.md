@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The `style` attribute accepts a JavaScript object with camelCased properties
-rather than a CSS string. This is consistent with the DOM style JavaScript
-property, is more efficient, and prevents XSS security holes.
+The `style` attribute accepts a JavaScript object with camelCased properties rather than a CSS string. This is consistent with the DOM style JavaScript property, is more efficient, and prevents XSS security holes.
 
 ```jsx
 const divStyle = {
@@ -18,8 +16,7 @@ function HelloWorldComponent() {
 }
 ```
 
-Style keys are camelCased in order to be consistent with accessing the
-properties on DOM nodes in JavaScript (e.g. `node.style.backgroundImage`).
+Style keys are camelCased in order to be consistent with accessing the properties on DOM nodes in JavaScript (e.g. `node.style.backgroundImage`).
 
 ========== Id ==========  
 43

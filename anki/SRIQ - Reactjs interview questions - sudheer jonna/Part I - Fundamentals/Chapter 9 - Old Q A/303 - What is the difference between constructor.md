@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You should initialize state in the constructor when using ES6 classes, and
-`getInitialState()` method when using `React.createClass()`.
+You should initialize state in the constructor when using ES6 classes, and `getInitialState()` method when using `React.createClass()`.
 
 **Using ES6 classes:**
 
@@ -32,8 +31,7 @@ const MyComponent = React.createClass({
 });
 ```
 
-**Note:** `React.createClass()` is deprecated and removed in React v16. Use
-plain JavaScript classes instead.
+**Note:** `React.createClass()` is deprecated and removed in React v16. Use plain JavaScript classes instead.
 
 ========== Id ==========  
 303

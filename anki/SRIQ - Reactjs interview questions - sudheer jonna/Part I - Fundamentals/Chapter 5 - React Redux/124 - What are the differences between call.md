@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-Both `call()` and `put()` are effect creator functions. `call()` function is
-used to create effect description, which instructs middleware to call the
-promise. `put()` function creates an effect, which instructs middleware to
-dispatch an action to the store.
+Both `call()` and `put()` are effect creator functions. `call()` function is used to create effect description, which instructs middleware to call the promise. `put()` function creates an effect, which instructs middleware to dispatch an action to the store.
 
 Let's take example of how these effects work for fetching particular user data.
 

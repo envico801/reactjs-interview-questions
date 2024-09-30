@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-React implements one-way reactive data flow using props which reduce boilerplate
-and is easier to understand than traditional two-way data binding.
+React implements one-way reactive data flow using props which reduce boilerplate and is easier to understand than traditional two-way data binding.
 
 ========== Id ==========  
 226

@@ -4,12 +4,9 @@
 
 ========== Answer ==========  
 
-Components are the building blocks of creating User Interfaces(UI) in React.
-There are two possible ways to create a component.
+Components are the building blocks of creating User Interfaces(UI) in React. There are two possible ways to create a component.
 
-1. **Function Components:** This is the simplest way to create a component.
-   Those are pure JavaScript functions that accept props object as the one and
-   only one parameter and return React elements to render the output:
+1. **Function Components:** This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as the one and only one parameter and return React elements to render the output:
 
     ```jsx
     function Greeting({ message }) {
@@ -17,8 +14,7 @@ There are two possible ways to create a component.
     }
     ```
 
-2. **Class Components:** You can also use ES6 class to define a component. The
-   above function component can be written as a class component:
+2. **Class Components:** You can also use ES6 class to define a component. The above function component can be written as a class component:
 
     ```jsx
     class Greeting extends React.Component {

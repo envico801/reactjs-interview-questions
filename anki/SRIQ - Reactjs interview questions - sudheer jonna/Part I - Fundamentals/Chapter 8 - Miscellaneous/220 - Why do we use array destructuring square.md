@@ -4,11 +4,7 @@
 
 ========== Answer ==========  
 
-When we declare a state variable with `useState`, it returns a pair — an array
-with two items. The first item is the current value, and the second is a
-function that updates the value. Using [0] and [1] to access them is a bit
-confusing because they have a specific meaning. This is why we use array
-destructuring instead.
+When we declare a state variable with `useState`, it returns a pair — an array with two items. The first item is the current value, and the second is a function that updates the value. Using [0] and [1] to access them is a bit confusing because they have a specific meaning. This is why we use array destructuring instead.
 
 For example, the array index access would look as follows:
 

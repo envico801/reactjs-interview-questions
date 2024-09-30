@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-This lifecycle method is invoked after an error has been thrown by a descendant
-component. It receives the error that was thrown as a parameter and should
-return a value to update state.
+This lifecycle method is invoked after an error has been thrown by a descendant component. It receives the error that was thrown as a parameter and should return a value to update state.
 
 The signature of the lifecycle method is as follows,
 
@@ -14,8 +12,7 @@ The signature of the lifecycle method is as follows,
 static getDerivedStateFromError(error)
 ```
 
-Let us take error boundary use case with the above lifecycle method for
-demonstration purpose,
+Let us take error boundary use case with the above lifecycle method for demonstration purpose,
 
 ```javascript
 class ErrorBoundary extends React.Component {

@@ -4,13 +4,9 @@
 
 ========== Answer ==========  
 
-One of the best place to do code splitting is with routes. The entire page is
-going to re-render at once so users are unlikely to interact with other elements
-in the page at the same time. Due to this, the user experience won't be
-disturbed.
+One of the best place to do code splitting is with routes. The entire page is going to re-render at once so users are unlikely to interact with other elements in the page at the same time. Due to this, the user experience won't be disturbed.
 
-Let us take an example of route based website using libraries like React Router
-with React.lazy,
+Let us take an example of route based website using libraries like React Router with React.lazy,
 
 ```javascript
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';

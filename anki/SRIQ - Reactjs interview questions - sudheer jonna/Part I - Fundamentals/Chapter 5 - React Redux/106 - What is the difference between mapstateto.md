@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-`mapStateToProps()` is a utility which helps your component get updated state
-(which is updated by some other components):
+`mapStateToProps()` is a utility which helps your component get updated state (which is updated by some other components):
 
 ```javascript
 const mapStateToProps = (state) => {
@@ -15,8 +14,7 @@ const mapStateToProps = (state) => {
 };
 ```
 
-`mapDispatchToProps()` is a utility which will help your component to fire an
-action event (dispatching action which may cause change of application state):
+`mapDispatchToProps()` is a utility which will help your component to fire an action event (dispatching action which may cause change of application state):
 
 ```javascript
 const mapDispatchToProps = (dispatch) => {
@@ -28,12 +26,9 @@ const mapDispatchToProps = (dispatch) => {
 };
 ```
 
-It is recommended to always use the “object shorthand” form for the
-`mapDispatchToProps`.
+It is recommended to always use the “object shorthand” form for the `mapDispatchToProps`.
 
-Redux wraps it in another function that looks like (…args) =>
-dispatch(onTodoClick(…args)), and pass that wrapper function as a prop to your
-component.
+Redux wraps it in another function that looks like (…args) => dispatch(onTodoClick(…args)), and pass that wrapper function as a prop to your component.
 
 ```javascript
 const mapDispatchToProps = {

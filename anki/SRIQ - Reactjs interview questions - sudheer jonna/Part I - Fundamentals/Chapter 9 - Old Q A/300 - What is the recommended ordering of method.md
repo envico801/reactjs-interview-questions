@@ -26,13 +26,11 @@ _Recommended_ ordering of methods from _mounting_ to _render stage_:
 
 10. `componentWillUnmount()`
 
-11. click handlers or event handlers like `onClickSubmit()` or
-    `onChangeDescription()`
+11. click handlers or event handlers like `onClickSubmit()` or `onChangeDescription()`
 
 12. getter methods for render like `getSelectReason()` or `getFooterContent()`
 
-13. optional render methods like `renderNavigation()` or
-    `renderProfilePicture()`
+13. optional render methods like `renderNavigation()` or `renderProfilePicture()`
 
 14. `render()`
 

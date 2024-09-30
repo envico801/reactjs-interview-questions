@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-If you try to render a `<label>` element bound to a text input using the
-standard `for` attribute, then it produces HTML missing that attribute and
-prints a warning to the console.
+If you try to render a `<label>` element bound to a text input using the standard `for` attribute, then it produces HTML missing that attribute and prints a warning to the console.
 
 ```jsx
 <label for={'user'}>{'User'}</label>

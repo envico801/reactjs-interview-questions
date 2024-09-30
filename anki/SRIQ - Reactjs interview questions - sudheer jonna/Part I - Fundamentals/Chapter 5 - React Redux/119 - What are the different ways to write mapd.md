@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-There are a few ways of binding _action creators_ to `dispatch()` in
-`mapDispatchToProps()`.
+There are a few ways of binding _action creators_ to `dispatch()` in `mapDispatchToProps()`.
 
 Below are the possible options:
 

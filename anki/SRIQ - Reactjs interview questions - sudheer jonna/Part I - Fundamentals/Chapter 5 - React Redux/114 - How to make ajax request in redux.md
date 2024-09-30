@@ -6,8 +6,7 @@
 
 You can use `redux-thunk` middleware which allows you to define async actions.
 
-Let's take an example of fetching specific account as an AJAX call using _fetch
-API_:
+Let's take an example of fetching specific account as an AJAX call using _fetch API_:
 
 ```javascript
 export function fetchAccount(id) {

@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-Prop Drilling is the process by which you pass data from one component of the
-React Component tree to another by going through other components that do not
-need the data but only help in passing it around.
+Prop Drilling is the process by which you pass data from one component of the React Component tree to another by going through other components that do not need the data but only help in passing it around.
 
 ========== Id ==========  
 240

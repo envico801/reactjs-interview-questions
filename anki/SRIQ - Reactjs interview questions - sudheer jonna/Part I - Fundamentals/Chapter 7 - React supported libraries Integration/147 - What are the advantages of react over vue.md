@@ -14,8 +14,7 @@ React has the following advantages over Vue.js:
 
 4.  More information and solutions available.
 
-**Note:** The above list of advantages are purely opinionated and it vary based
-on the professional experience. But they are helpful as base parameters.
+**Note:** The above list of advantages are purely opinionated and it vary based on the professional experience. But they are helpful as base parameters.
 
 ========== Id ==========  
 147

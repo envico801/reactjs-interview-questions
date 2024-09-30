@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The below table represent preferred and non-preferred array operations for
-updating the component state.
+The below table represent preferred and non-preferred array operations for updating the component state.
 
 | Action    | Preferred            | Non-preferred              |
 | --------- | -------------------- | -------------------------- |
@@ -14,8 +13,7 @@ updating the component state.
 | Replacing | map                  | splice, arr[i] = someValue |
 | sorting   | copying to new array | reverse, sort              |
 
-If you use Immer library then you can able to use all array methods without any
-problem.
+If you use Immer library then you can able to use all array methods without any problem.
 
 ========== Id ==========  
 261

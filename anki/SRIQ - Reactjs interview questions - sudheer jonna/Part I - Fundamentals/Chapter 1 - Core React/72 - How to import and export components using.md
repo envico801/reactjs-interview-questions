@@ -31,9 +31,7 @@ export default class MyProfile extends React.Component {
 
 </details>
 
-With the export specifier, the MyProfile is going to be the member and exported
-to this module and the same can be imported without mentioning the name in other
-components.
+With the export specifier, the MyProfile is going to be the member and exported to this module and the same can be imported without mentioning the name in other components.
 
 ========== Id ==========  
 72

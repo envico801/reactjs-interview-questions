@@ -12,11 +12,9 @@ Some of the main features of Redux DevTools are below,
 
 3.  If you change the reducer code, each _staged_ action will be re-evaluated.
 
-4.  If the reducers throw, you will see during which action this happened, and
-    what the error was.
+4.  If the reducers throw, you will see during which action this happened, and what the error was.
 
-5.  With `persistState()` store enhancer, you can persist debug sessions across
-    page reloads.
+5.  With `persistState()` store enhancer, you can persist debug sessions across page reloads.
 
 ========== Id ==========  
 128

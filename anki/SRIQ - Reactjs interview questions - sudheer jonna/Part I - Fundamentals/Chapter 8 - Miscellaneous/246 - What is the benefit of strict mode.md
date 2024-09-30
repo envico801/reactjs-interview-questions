@@ -6,11 +6,9 @@
 
 The <StrictMode> will be helpful in the below cases,
 
-1.  To find the bugs caused by impure rendering where the components will
-    re-render twice.
+1.  To find the bugs caused by impure rendering where the components will re-render twice.
 
-2.  To find the bugs caused by missing cleanup of effects where the components
-    will re-run effects one more extra time.
+2.  To find the bugs caused by missing cleanup of effects where the components will re-run effects one more extra time.
 
 3.  Identifying components with **unsafe lifecycle methods**.
 

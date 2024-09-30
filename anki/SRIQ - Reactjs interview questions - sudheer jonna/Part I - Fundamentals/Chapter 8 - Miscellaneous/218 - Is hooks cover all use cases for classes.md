@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-Hooks doesn't cover all use cases of classes but there is a plan to add them
-soon. Currently there are no Hook equivalents to the uncommon
-**getSnapshotBeforeUpdate** and **componentDidCatch** lifecycles yet.
+Hooks doesn't cover all use cases of classes but there is a plan to add them soon. Currently there are no Hook equivalents to the uncommon **getSnapshotBeforeUpdate** and **componentDidCatch** lifecycles yet.
 
 ========== Id ==========  
 218

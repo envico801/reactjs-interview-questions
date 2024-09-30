@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-**Arrays**: Unlike older releases, you don't need to make sure **render** method
-return a single element in React16. You are able to return multiple sibling
-elements without a wrapping element by returning an array.
+**Arrays**: Unlike older releases, you don't need to make sure **render** method return a single element in React16. You are able to return multiple sibling elements without a wrapping element by returning an array.
 
 For example, let us take the below list of developers,
 
@@ -35,8 +33,7 @@ const JSDevs = () => {
 };
 ```
 
-**Strings and Numbers:** You can also return string and number type from the
-render method.
+**Strings and Numbers:** You can also return string and number type from the render method.
 
 ```jsx
 render() {

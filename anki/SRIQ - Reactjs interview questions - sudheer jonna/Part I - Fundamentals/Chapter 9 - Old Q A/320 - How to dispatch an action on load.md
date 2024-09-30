@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can dispatch an action in `componentDidMount()` method and in `render()`
-method you can verify the data.
+You can dispatch an action in `componentDidMount()` method and in `render()` method you can verify the data.
 
 ```javascript
 class App extends Component {

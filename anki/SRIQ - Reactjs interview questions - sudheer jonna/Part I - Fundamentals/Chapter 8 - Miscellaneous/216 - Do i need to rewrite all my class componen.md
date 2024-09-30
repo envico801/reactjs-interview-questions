@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-No. But you can try Hooks in a few components(or new components) without
-rewriting any existing code. Because there are no plans to remove classes in
-ReactJS.
+No. But you can try Hooks in a few components(or new components) without rewriting any existing code. Because there are no plans to remove classes in ReactJS.
 
 ========== Id ==========  
 216

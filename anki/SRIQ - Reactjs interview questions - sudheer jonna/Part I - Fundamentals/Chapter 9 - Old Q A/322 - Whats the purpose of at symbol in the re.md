@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The **@** symbol is in fact a JavaScript expression used to signify decorators.
-_Decorators_ make it possible to annotate and modify classes and properties at
-design time.
+The **@** symbol is in fact a JavaScript expression used to signify decorators. _Decorators_ make it possible to annotate and modify classes and properties at design time.
 
 Let's take an example setting up Redux without and with a decorator.
 
@@ -48,10 +46,7 @@ Let's take an example setting up Redux without and with a decorator.
     }
     ```
 
-The above examples are almost similar except the usage of decorator. The
-decorator syntax isn't built into any JavaScript runtimes yet, and is still
-experimental and subject to change. You can use babel for the decorators
-support.
+The above examples are almost similar except the usage of decorator. The decorator syntax isn't built into any JavaScript runtimes yet, and is still experimental and subject to change. You can use babel for the decorators support.
 
 ========== Id ==========  
 322

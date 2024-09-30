@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-In some cases you want to render different components depending on some state.
-JSX does not render `false` or `undefined`, so you can use conditional
-_short-circuiting_ to render a given part of your component only if a certain
-condition is true.
+In some cases you want to render different components depending on some state. JSX does not render `false` or `undefined`, so you can use conditional _short-circuiting_ to render a given part of your component only if a certain condition is true.
 
 ```jsx
 const MyComponent = ({ name, address }) => (

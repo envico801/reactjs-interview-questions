@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-Both refers the same thing. Previously concurrent Mode being referred to as
-"Async Mode" by React team. The name has been changed to highlight React’s
-ability to perform work on different priority levels. So it avoids the confusion
-from other approaches to Async Rendering.
+Both refers the same thing. Previously concurrent Mode being referred to as "Async Mode" by React team. The name has been changed to highlight React’s ability to perform work on different priority levels. So it avoids the confusion from other approaches to Async Rendering.
 
 ========== Id ==========  
 231

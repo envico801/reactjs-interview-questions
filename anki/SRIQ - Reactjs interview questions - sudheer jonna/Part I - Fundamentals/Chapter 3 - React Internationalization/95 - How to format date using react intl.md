@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-The `injectIntl()` higher-order component will give you access to the
-`formatDate()` method via the props in your component. The method is used
-internally by instances of `FormattedDate` and it returns the string
-representation of the formatted date.
+The `injectIntl()` higher-order component will give you access to the `formatDate()` method via the props in your component. The method is used internally by instances of `FormattedDate` and it returns the string representation of the formatted date.
 
 ```jsx
 import { injectIntl, intlShape } from 'react-intl';

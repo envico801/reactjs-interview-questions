@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You have to wrap your Route's in a `<Switch>` block because `<Switch>` is unique
-in that it renders a route exclusively.
+You have to wrap your Route's in a `<Switch>` block because `<Switch>` is unique in that it renders a route exclusively.
 
 At first you need to add `Switch` to your imports:
 

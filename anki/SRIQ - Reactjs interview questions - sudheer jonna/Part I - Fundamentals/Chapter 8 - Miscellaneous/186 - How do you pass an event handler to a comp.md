@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can pass event handlers and other functions as props to child components.
-The functions can be passed to child component as below,
+You can pass event handlers and other functions as props to child components. The functions can be passed to child component as below,
 
 ```jsx
 function Button({ onClick }) {

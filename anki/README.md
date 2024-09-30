@@ -373,12 +373,13 @@
 | [357](#id357) | [What is the purpose of rendertonodestream](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%209%20-%20Old%20Q%20A/357%20-%20What%20is%20the%20purpose%20of%20rendertonodestream.md) | 1 | 9 |
 | [358](#id358) | [How do you get redux scaffolding using cre](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%209%20-%20Old%20Q%20A/358%20-%20How%20do%20you%20get%20redux%20scaffolding%20using%20cre.md) | 1 | 9 |
 | [359](#id359) | [What is state mutation and how to prevent](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%209%20-%20Old%20Q%20A/359%20-%20What%20is%20state%20mutation%20and%20how%20to%20prevent.md) | 1 | 9 |
-| **-** | **Fundamentals > Coding Exercises** | **1** | **10** |
-| [360](#id360) | [What is the output of below code javasc](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Coding%20Exercises/360%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 10 |
-| [361](#id361) | [What is the output of below code javasc](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Coding%20Exercises/361%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 10 |
-| [362](#id362) | [What is the output of span after one click](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Coding%20Exercises/362%20-%20What%20is%20the%20output%20of%20span%20after%20one%20click.md) | 1 | 10 |
-| [363](#id363) | [What is the outcome of below code after bu](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Coding%20Exercises/363%20-%20What%20is%20the%20outcome%20of%20below%20code%20after%20bu.md) | 1 | 10 |
-| [364](#id364) | [What is the outcome of number of clicks af](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Coding%20Exercises/364%20-%20What%20is%20the%20outcome%20of%20number%20of%20clicks%20af.md) | 1 | 10 |
+| **-** | **Coding Exercises** | **2** | **-** |
+| **-** | **Coding Exercises > Exercises** | **2** | **1** |
+| [360](#id360) | [What is the output of below code javasc](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20II%20-%20Coding%20Exercises/Chapter%201%20-%20Exercises/360%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 2 | 1 |
+| [361](#id361) | [What is the output of below code javasc](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20II%20-%20Coding%20Exercises/Chapter%201%20-%20Exercises/361%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 2 | 1 |
+| [362](#id362) | [What is the output of span after one click](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20II%20-%20Coding%20Exercises/Chapter%201%20-%20Exercises/362%20-%20What%20is%20the%20output%20of%20span%20after%20one%20click.md) | 2 | 1 |
+| [363](#id363) | [What is the outcome of below code after bu](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20II%20-%20Coding%20Exercises/Chapter%201%20-%20Exercises/363%20-%20What%20is%20the%20outcome%20of%20below%20code%20after%20bu.md) | 2 | 1 |
+| [364](#id364) | [What is the outcome of number of clicks af](./SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna/Part%20II%20-%20Coding%20Exercises/Chapter%201%20-%20Exercises/364%20-%20What%20is%20the%20outcome%20of%20number%20of%20clicks%20af.md) | 2 | 1 |
 
 ### Part I - Fundamentals
 

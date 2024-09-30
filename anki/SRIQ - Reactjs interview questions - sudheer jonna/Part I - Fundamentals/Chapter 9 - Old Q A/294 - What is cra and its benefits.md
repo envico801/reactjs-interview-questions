@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The `create-react-app` CLI tool allows you to quickly create & run React
-applications with no configuration step.
+The `create-react-app` CLI tool allows you to quickly create & run React applications with no configuration step.
 
 Let's create Todo App using _CRA_:
 
@@ -29,13 +28,11 @@ It includes everything we need to build a React app:
 
 3. Autoprefixed CSS, so you don’t need -webkit- or other prefixes.
 
-4. A fast interactive unit test runner with built-in support for coverage
-   reporting.
+4. A fast interactive unit test runner with built-in support for coverage reporting.
 
 5. A live development server that warns about common mistakes.
 
-6. A build script to bundle JS, CSS, and images for production, with hashes and
-   sourcemaps.
+6. A build script to bundle JS, CSS, and images for production, with hashes and sourcemaps.
 
 ========== Id ==========  
 294

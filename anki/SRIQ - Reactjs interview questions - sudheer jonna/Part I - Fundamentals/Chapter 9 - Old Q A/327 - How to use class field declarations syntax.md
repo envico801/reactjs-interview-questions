@@ -4,13 +4,9 @@
 
 ========== Answer ==========  
 
-React Class Components can be made much more concise using the class field
-declarations. You can initialize the local state without using the constructor
-and declare class methods by using arrow functions without the extra need to
-bind them.
+React Class Components can be made much more concise using the class field declarations. You can initialize the local state without using the constructor and declare class methods by using arrow functions without the extra need to bind them.
 
-Let's take a counter example to demonstrate class field declarations for state
-without using constructor and methods without binding,
+Let's take a counter example to demonstrate class field declarations for state without using constructor and methods without binding,
 
 ```jsx
 class Counter extends Component {

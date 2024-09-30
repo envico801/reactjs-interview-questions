@@ -4,23 +4,17 @@
 
 ========== Answer ==========  
 
-You can efficiently build nextjs application if you are aware about which part
-of the application needs to use client components and which other parts needs to
-use server components. The common cases of both client and server components are
-listed below:
+You can efficiently build nextjs application if you are aware about which part of the application needs to use client components and which other parts needs to use server components. The common cases of both client and server components are listed below:
 
 **Client components:**
 
-1. Whenever your need to add interactivity and event listeners such as
-   onClick(), onChange(), etc to the pages
+1. Whenever your need to add interactivity and event listeners such as onClick(), onChange(), etc to the pages
 
-2. If you need to use State and Lifecycle Effects like useState(), useReducer(),
-   useEffect() etc.
+2. If you need to use State and Lifecycle Effects like useState(), useReducer(), useEffect() etc.
 
 3. If there is a requirement to use browser-only APIs.
 
-4. If you need to implement custom hooks that depend on state, effects, or
-   browser-only APIs.
+4. If you need to implement custom hooks that depend on state, effects, or browser-only APIs.
 
 5. There are React Class components in the pages.
 
@@ -30,11 +24,9 @@ listed below:
 
 2. If you need to access backend resources directly.
 
-3. When you need to keep sensitive information((access tokens, API keys, etc) )
-   on the server.
+3. When you need to keep sensitive information((access tokens, API keys, etc) ) on the server.
 
-4. If you want reduce client-side JavaScript and placing large dependencies on
-   the server.
+4. If you want reduce client-side JavaScript and placing large dependencies on the server.
 
 ========== Id ==========  
 269

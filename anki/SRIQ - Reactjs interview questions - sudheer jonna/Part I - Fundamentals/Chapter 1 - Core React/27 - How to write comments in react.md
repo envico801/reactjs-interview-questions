@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The comments in React/JSX are similar to JavaScript Multiline comments but are
-wrapped in curly braces.
+The comments in React/JSX are similar to JavaScript Multiline comments but are wrapped in curly braces.
 
 **Single-line comments:**
 

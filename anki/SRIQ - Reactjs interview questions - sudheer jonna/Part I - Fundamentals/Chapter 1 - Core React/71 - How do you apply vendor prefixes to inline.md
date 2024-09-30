@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-React _does not_ apply _vendor prefixes_ automatically. You need to add vendor
-prefixes manually.
+React _does not_ apply _vendor prefixes_ automatically. You need to add vendor prefixes manually.
 
 ```jsx
 <div

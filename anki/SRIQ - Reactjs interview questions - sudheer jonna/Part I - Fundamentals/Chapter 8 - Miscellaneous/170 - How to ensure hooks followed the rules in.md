@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-React team released an ESLint plugin called **eslint-plugin-react-hooks** that
-enforces Hook's two rules. It is part of Hooks API. You can add this plugin to
-your project using the below command,
+React team released an ESLint plugin called **eslint-plugin-react-hooks** that enforces Hook's two rules. It is part of Hooks API. You can add this plugin to your project using the below command,
 
 ```javascript
 npm install eslint-plugin-react-hooks --save-dev
@@ -28,13 +26,9 @@ And apply the below config in your ESLint config file,
 }
 ```
 
-The recommended `eslint-config-react-app` preset already includes the hooks
-rules of this plugin.
+The recommended `eslint-config-react-app` preset already includes the hooks rules of this plugin.
 
-For example, the linter enforce proper naming convention for hooks. If you
-rename your custom hooks which as prefix "use" to something else then linter
-won't allow you to call built-in hooks such as useState, useEffect etc inside of
-your custom hook anymore.
+For example, the linter enforce proper naming convention for hooks. If you rename your custom hooks which as prefix "use" to something else then linter won't allow you to call built-in hooks such as useState, useEffect etc inside of your custom hook anymore.
 
 **Note:** This plugin is intended to use in Create React App by default.
 

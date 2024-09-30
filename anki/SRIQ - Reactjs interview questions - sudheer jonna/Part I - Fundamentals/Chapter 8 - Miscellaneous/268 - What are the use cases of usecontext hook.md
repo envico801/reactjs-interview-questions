@@ -6,16 +6,11 @@
 
 Some of the common use cases of useContext are listed below,
 
-1.  **Theme customizations:** The useContext hook can be used to manage and
-    apply custom themes for an application. That means it allows users to
-    personalize the appearance of the application.
+1.  **Theme customizations:** The useContext hook can be used to manage and apply custom themes for an application. That means it allows users to personalize the appearance of the application.
 
-2.  **Support localization:** The context hook is helpful to implement
-    localization by providing translated strings to components based on the
-    user's language/locale preference.
+2.  **Support localization:** The context hook is helpful to implement localization by providing translated strings to components based on the user's language/locale preference.
 
-3.  **User authentication:** It can be used to manage user authentication or
-    session status and display user specific information with in components.
+3.  **User authentication:** It can be used to manage user authentication or session status and display user specific information with in components.
 
 ========== Id ==========  
 268

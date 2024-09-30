@@ -22,8 +22,7 @@ const Wrapper = styled.section`
 `;
 ```
 
-These two variables, `Title` and `Wrapper`, are now components that you can
-render just like any other react component.
+These two variables, `Title` and `Wrapper`, are now components that you can render just like any other react component.
 
 ```jsx
 <Wrapper>
