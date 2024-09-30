@@ -51,22 +51,23 @@ Feeling chatty? Constructive feedback and suggestions are the secret sauce – s
 In case Anki forgets its styling magic, tap into the mystical powers of [CSS/HTML styles from my repository](https://github.com/envico801/anki-config/tree/main/cards/basic). Your eyes will thank you for the clarity! Pay special attention to the styles for code blocks and tables – those sneaky code blocks tend to lose their indentations, and table borders play hide and seek.
 
 <p align="center">
-    <a href="https://github.com/user-attachments/assets/4bdaba9e-2d83-4bab-934a-5ddcd6fb5699"
+    <a href="https://github.com/user-attachments/assets/b442b6e3-6cdc-444f-8868-aa27020cbbc0"
        target="_blank">
-        <img src="https://github.com/user-attachments/assets/4bdaba9e-2d83-4bab-934a-5ddcd6fb5699"
+        <img src="https://github.com/user-attachments/assets/b442b6e3-6cdc-444f-8868-aa27020cbbc0"
              alt="Card example 1" style="height: 200px;">
     </a>
-    <a href="https://github.com/user-attachments/assets/18fcf7ae-77a8-4170-8908-ee450a00ec5e"
+    <a href="https://github.com/user-attachments/assets/1f700000-fd80-4c1e-9d9f-98af9d131906"
        target="_blank">
-        <img src="https://github.com/user-attachments/assets/18fcf7ae-77a8-4170-8908-ee450a00ec5e"
+        <img src="https://github.com/user-attachments/assets/1f700000-fd80-4c1e-9d9f-98af9d131906"
              alt="Card example 2" style="height: 200px;">
     </a>
-    <a href="https://github.com/user-attachments/assets/59022d4f-024e-4375-bbe7-eaf6b8b52d7b"
+    <a href="https://github.com/user-attachments/assets/4888d216-cd07-47b8-ba08-fe31545464ca"
        target="_blank">
-        <img src="https://github.com/user-attachments/assets/59022d4f-024e-4375-bbe7-eaf6b8b52d7b"
+        <img src="https://github.com/user-attachments/assets/4888d216-cd07-47b8-ba08-fe31545464ca"
              alt="Card example 3" style="height: 200px;">
     </a>
 </p>
+
 
 ## README.md of the original repository below
 
