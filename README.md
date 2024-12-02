@@ -8,17 +8,25 @@ A mystical conversion preserves the essence of the original questions, with just
 
 _(translation) - The Anki version's got the same content as the original, just with some wonky formatting._
 
-But wait, there’s more to explore on your journey:
-
 **If the ankiweb links appear with this message** `«This shared item is missing or currently unavailable.»` **it is because I am updating the description of the page or the complete deck, if this is the case you will have to wait 24 hours until the page is updated. To have the latest updates (shown in the changelog) you need to re-download the deck.**
 
-- 🔮 **JavaScript Interview Questions & Answers** – [ankiweb (deck)](https://ankiweb.net/shared/info/1035695037) – [GitHub Repository](https://github.com/envico801/javascript-interview-questions) - [Direct download (github)](https://raw.githubusercontent.com/envico801/javascript-interview-questions/master/anki/Javascript__Interview__SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna.apkg)
+But wait, there’s more to explore on your journey:
 
-- ⚛️ **React Interview Questions & Answers** – [ankiweb (deck)](https://ankiweb.net/shared/info/1098877193) – [GitHub Repository](https://github.com/envico801/reactjs-interview-questions) - [Direct download (github)](https://raw.githubusercontent.com/envico801/reactjs-interview-questions/master/anki/Javascript__Interview__SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna.apkg)
+- 🔮 **JavaScript Interview Questions & Answers** – _List of 500 JavaScript Interview Questions_
 
-- 🧬 **Anki JavaScript Regular Expressions** – ankiweb (deck) **(upload pending)** – [GitHub Repository](https://github.com/envico801/anki-javascript-regular-expressions) - [Direct download (github)](https://raw.githubusercontent.com/envico801/anki-javascript-regular-expressions/main/Javascript__Regular%20expressions__AJREM%20-%20Anki%20javascript%20regular%20expressions%20-%20mozilla.apkg)
+    [Ankiweb (deck)](https://ankiweb.net/shared/info/1035695037) – [GitHub Repository](https://github.com/envico801/javascript-interview-questions) - [Direct download (github)](https://raw.githubusercontent.com/envico801/javascript-interview-questions/master/anki/Javascript__Interview__SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna.apkg)
 
-- 🛡️ **Anki OWASP Top 10** – ankiweb (deck) **(upload pending)** – [GitHub Repository](https://github.com/envico801/anki-owasp-top-10) - [Direct download (github)](https://raw.githubusercontent.com/envico801/anki-owasp-top-10/main/Web%20Security__OWASP%20Top%2010__OAOT%20-%20Anki%20owasp%20top%2010%20-%20owasp.apkg)
+- ⚛️ **React Interview Questions & Answers** – _List of top 300 ReactJS Interview Questions & Answers_
+
+    [Ankiweb (deck)](https://ankiweb.net/shared/info/1098877193) – [GitHub Repository](https://github.com/envico801/reactjs-interview-questions) - [Direct download (github)](https://raw.githubusercontent.com/envico801/reactjs-interview-questions/master/anki/Javascript__Interview__SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna.apkg)
+
+- 🛠️ **Javascript Project Guidelines & Best Practices** – _A set of best practices for JavaScript projects_
+
+    [Ankiweb (deck)](https://ankiweb.net/shared/info/1300509274) – [GitHub Repository](https://github.com/envico801/project-guidelines) – [Direct download (github)](https://github.com/envico801/project-guidelines/raw/refs/heads/master/anki/Javascript__Coding%20best%20practices__EPG%20-%20Project%20guidelines%20-%20elsewhen.apkg)
+
+- 🧹 **JavaScript Clean Code Principles** – _🛁 Clean Code concepts adapted for JavaScript_
+
+    [Ankiweb (deck)](https://ankiweb.net/shared/info/297764056) – [GitHub Repository](https://github.com/envico801/clean-code-javascript) - [Direct download (github)](https://github.com/envico801/clean-code-javascript/raw/refs/heads/master/anki/Javascript__Coding%20best%20practices__RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott.apkg)
 
 The magical journey never ends! Dive into these sacred tomes to unlock new realms of coding prowess.
 
@@ -51,23 +59,16 @@ Feeling chatty? Constructive feedback and suggestions are the secret sauce – s
 In case Anki forgets its styling magic, tap into the mystical powers of [CSS/HTML styles from my repository](https://github.com/envico801/anki-config/tree/main/cards/basic). Your eyes will thank you for the clarity! Pay special attention to the styles for code blocks and tables – those sneaky code blocks tend to lose their indentations, and table borders play hide and seek.
 
 <p align="center">
-    <a href="https://github.com/user-attachments/assets/b442b6e3-6cdc-444f-8868-aa27020cbbc0"
-       target="_blank">
-        <img src="https://github.com/user-attachments/assets/b442b6e3-6cdc-444f-8868-aa27020cbbc0"
-             alt="Card example 1" style="height: 200px;">
+    <a href="https://github.com/user-attachments/assets/40fc2ec4-3bf9-4a63-96f1-d8ab5460eb84" target="_blank">
+        <img src="https://github.com/user-attachments/assets/40fc2ec4-3bf9-4a63-96f1-d8ab5460eb84" alt="Card example 1" style="height: 200px;">
     </a>
-    <a href="https://github.com/user-attachments/assets/1f700000-fd80-4c1e-9d9f-98af9d131906"
-       target="_blank">
-        <img src="https://github.com/user-attachments/assets/1f700000-fd80-4c1e-9d9f-98af9d131906"
-             alt="Card example 2" style="height: 200px;">
+    <a href="https://github.com/user-attachments/assets/107fabf6-2105-4788-8c87-a10185a6384b" target="_blank">
+        <img src="https://github.com/user-attachments/assets/107fabf6-2105-4788-8c87-a10185a6384b" alt="Card example 2" style="height: 200px;">
     </a>
-    <a href="https://github.com/user-attachments/assets/4888d216-cd07-47b8-ba08-fe31545464ca"
-       target="_blank">
-        <img src="https://github.com/user-attachments/assets/4888d216-cd07-47b8-ba08-fe31545464ca"
-             alt="Card example 3" style="height: 200px;">
+    <a href="https://github.com/user-attachments/assets/75604b21-99d2-4527-b18d-874d222247ac" target="_blank">
+        <img src="https://github.com/user-attachments/assets/75604b21-99d2-4527-b18d-874d222247ac" alt="Card example 3" style="height: 200px;">
     </a>
 </p>
-
 
 ## README.md of the original repository below
 
