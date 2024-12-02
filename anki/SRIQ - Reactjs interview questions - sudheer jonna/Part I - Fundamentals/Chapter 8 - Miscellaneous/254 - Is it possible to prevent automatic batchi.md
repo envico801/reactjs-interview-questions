@@ -10,10 +10,12 @@ The usage of `flushSync` method within an `onClick` event handler will be lookin
 
 ```jsx
 import { flushSync } from 'react-dom';
+
 const handleClick = () => {
     flushSync(() => {
         setClicked(!clicked); //Component will create a re-render here
     });
+
     setCount(count + 1); // Component will create a re-render again here
 };
 ```
@@ -40,4 +42,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

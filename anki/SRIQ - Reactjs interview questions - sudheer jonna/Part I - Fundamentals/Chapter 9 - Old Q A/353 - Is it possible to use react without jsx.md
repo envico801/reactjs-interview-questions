@@ -14,6 +14,7 @@ class Greeting extends React.Component {
         return <div>Hello {this.props.message}</div>;
     }
 }
+
 ReactDOM.render(<Greeting message='World' />, document.getElementById('root'));
 ```
 
@@ -25,6 +26,7 @@ class Greeting extends React.Component {
         return React.createElement('div', null, `Hello ${this.props.message}`);
     }
 }
+
 ReactDOM.render(
     React.createElement(Greeting, { message: 'World' }, null),
     document.getElementById('root'),
@@ -51,4 +53,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

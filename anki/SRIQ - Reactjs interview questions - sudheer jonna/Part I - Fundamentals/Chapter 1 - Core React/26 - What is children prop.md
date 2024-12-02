@@ -16,6 +16,7 @@ function MyDiv({ children }){
       </div>;
     );
 }
+
 export default function Greeting() {
   return (
     <MyDiv>
@@ -36,6 +37,7 @@ const MyDiv = React.createClass({
         return <div>{this.props.children}</div>;
     },
 });
+
 ReactDOM.render(
     <MyDiv>
         <span>{'Hello'}</span>
@@ -71,4 +73,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

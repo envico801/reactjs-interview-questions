@@ -12,6 +12,7 @@ A child class constructor cannot make use of `this` reference until the `super()
 class MyComponent extends React.Component {
     constructor(props) {
         super(props);
+
         console.log(this.props); // prints { name: 'John', age: 42 }
     }
 }
@@ -23,10 +24,13 @@ class MyComponent extends React.Component {
 class MyComponent extends React.Component {
     constructor(props) {
         super();
+
         console.log(this.props); // prints undefined
+
         // but props parameter is still available
         console.log(props); // prints { name: 'John', age: 42 }
     }
+
     render() {
         // no difference outside constructor
         console.log(this.props); // prints { name: 'John', age: 42 }
@@ -56,4 +60,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

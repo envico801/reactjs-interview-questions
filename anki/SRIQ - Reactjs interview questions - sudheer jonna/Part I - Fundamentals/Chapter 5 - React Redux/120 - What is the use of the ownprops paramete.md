@@ -8,6 +8,7 @@ If the `ownProps` parameter is specified, React Redux will pass the props that w
 
 ```jsx
 import ConnectedComponent from './containers/ConnectedComponent';
+
 <ConnectedComponent user={'john'} />;
 ```
 
@@ -41,4 +42,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

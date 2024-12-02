@@ -12,6 +12,7 @@ const ButtonElement = React.forwardRef((props, ref) => (
         {props.children}
     </button>
 ));
+
 // Create ref to the DOM button:
 const ref = React.createRef();
 <ButtonElement ref={ref}>{'Forward Ref'}</ButtonElement>;
@@ -37,4 +38,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

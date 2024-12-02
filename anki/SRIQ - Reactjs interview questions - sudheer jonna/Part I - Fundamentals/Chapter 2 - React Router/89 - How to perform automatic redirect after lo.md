@@ -8,6 +8,7 @@ The `react-router` package provides `<Redirect>` component in React Router. Rend
 
 ```javascript
 import { Redirect } from "react-router";
+
 export default function Login {
     if (this.state.isLoggedIn === true) {
       return <Redirect to="/your/redirect/page" />;
@@ -24,6 +25,7 @@ export default function Login {
 ```jsx
 import React, { Component } from 'react';
 import { Redirect } from 'react-router';
+
 export default class LoginComponent extends Component {
     render() {
         if (this.state.isLoggedIn === true) {
@@ -59,4 +61,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

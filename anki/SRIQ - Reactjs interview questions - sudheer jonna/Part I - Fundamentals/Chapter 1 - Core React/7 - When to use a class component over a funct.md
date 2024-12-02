@@ -34,7 +34,9 @@ The usage of Error boundaries from the above library is quite straight forward.
 
 ```jsx
 'use client';
+
 import { ErrorBoundary } from 'react-error-boundary';
+
 <ErrorBoundary fallback={<div>Something went wrong</div>}>
     <ExampleApplication />
 </ErrorBoundary>;
@@ -60,4 +62,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

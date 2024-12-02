@@ -22,6 +22,7 @@ export function fetchAccount(id) {
         });
     };
 }
+
 function setAccount(data) {
     return { type: 'SET_Account', data: data };
 }
@@ -47,4 +48,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

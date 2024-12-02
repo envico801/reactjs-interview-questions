@@ -12,6 +12,7 @@ Let's take an example to look at the main differences between the old and the ne
 
 ```js
 import React from 'react';
+
 function App() {
     return <h1>Good morning!!</h1>;
 }
@@ -21,6 +22,7 @@ Now JSX transform convert the above code into regular JavaScript as below,
 
 ```js
 import React from 'react';
+
 function App() {
     return React.createElement('h1', null, 'Good morning!!');
 }
@@ -40,6 +42,7 @@ Under the hood JSX transform compiles to below code
 
 ```js
 import { jsx as _jsx } from 'react/jsx-runtime';
+
 function App() {
     return _jsx('h1', { children: 'Good morning!!' });
 }
@@ -67,4 +70,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

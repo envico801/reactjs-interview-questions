@@ -11,6 +11,7 @@ function Greeting(props) {
     if (!props.loggedIn) {
         return null;
     }
+
     return <div className='greeting'>welcome, {props.name}</div>;
 }
 ```
@@ -21,6 +22,7 @@ class User extends React.Component {
     super(props);
     this.state = {loggedIn: false, name: 'John'};
   }
+
   render() {
    return (
        <div>
@@ -54,4 +56,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

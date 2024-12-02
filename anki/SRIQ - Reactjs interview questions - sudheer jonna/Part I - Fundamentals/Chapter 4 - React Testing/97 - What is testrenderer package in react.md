@@ -8,10 +8,13 @@ This package provides a renderer that can be used to render components to pure J
 
 ```jsx
 import TestRenderer from 'react-test-renderer';
+
 const Link = ({ page, children }) => <a href={page}>{children}</a>;
+
 const testRenderer = TestRenderer.create(
     <Link page={'https://www.facebook.com/'}>{'Facebook'}</Link>,
 );
+
 console.log(testRenderer.toJSON());
 // {
 //   type: 'a',
@@ -40,4 +43,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

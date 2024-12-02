@@ -8,17 +8,21 @@ The `injectIntl()` higher-order component will give you access to the `formatDat
 
 ```jsx
 import { injectIntl, intlShape } from 'react-intl';
+
 const stringDate = this.props.intl.formatDate(date, {
     year: 'numeric',
     month: 'numeric',
     day: 'numeric',
 });
+
 const MyComponent = ({ intl }) => (
     <div>{`The formatted date is ${stringDate}`}</div>
 );
+
 MyComponent.propTypes = {
     intl: intlShape.isRequired,
 };
+
 export default injectIntl(MyComponent);
 ```
 
@@ -42,4 +46,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

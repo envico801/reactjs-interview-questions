@@ -17,6 +17,7 @@ class MyComponent extends React.Component {
             error: null,
         };
     }
+
     componentDidMount() {
         fetch('https://api.example.com/items')
             .then((res) => res.json())
@@ -31,6 +32,7 @@ class MyComponent extends React.Component {
                 },
             );
     }
+
     render() {
         const { error, employees } = this.state;
         if (error) {
@@ -70,4 +72,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

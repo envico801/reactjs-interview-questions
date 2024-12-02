@@ -15,12 +15,15 @@ function logProps(Component) {
             console.log('old props:', prevProps);
             console.log('new props:', this.props);
         }
+
         render() {
             const { forwardedRef, ...rest } = this.props;
+
             // Assign the custom prop "forwardedRef" as a ref
             return <Component ref={forwardedRef} {...rest} />;
         }
     }
+
     return React.forwardRef((props, ref) => {
         return <LogProps {...props} forwardedRef={ref} />;
     });
@@ -34,6 +37,7 @@ class FancyButton extends React.Component {
     focus() {
         // ...
     }
+
     // ...
 }
 export default logProps(FancyButton);
@@ -43,6 +47,7 @@ Now let's create a ref and pass it to FancyButton component. In this case, you c
 
 ```javascript
 import FancyButton from './FancyButton';
+
 const ref = React.createRef();
 ref.current.focus();
 <FancyButton label='Click Me' handleClick={handleClick} ref={ref} />;
@@ -68,4 +73,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

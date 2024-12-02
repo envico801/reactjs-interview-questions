@@ -7,8 +7,11 @@
 MobX is a simple, scalable and battle tested state management solution for applying functional reactive programming (TFRP). For ReactJS application, you need to install below packages,
 
 ```bash
+
 npm install mobx --save
+
 npm install mobx-react --save
+
 ```
 
 ========== Id ==========  
@@ -31,4 +34,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -12,6 +12,7 @@ In this example MyComponent uses `dangerouslySetInnerHTML` attribute for setting
 function createMarkup() {
     return { __html: 'First &middot; Second' };
 }
+
 function MyComponent() {
     return <div dangerouslySetInnerHTML={createMarkup()} />;
 }
@@ -37,4 +38,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

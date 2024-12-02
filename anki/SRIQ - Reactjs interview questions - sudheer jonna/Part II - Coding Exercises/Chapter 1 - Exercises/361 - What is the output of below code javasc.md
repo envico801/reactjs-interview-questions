@@ -4,8 +4,10 @@
 
 ```javascript
 import { useState } from 'react';
+
 export default function Counter() {
     const [counter, setCounter] = useState(5);
+
     return (
         <>
             <span>{counter}</span>
@@ -59,4 +61,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

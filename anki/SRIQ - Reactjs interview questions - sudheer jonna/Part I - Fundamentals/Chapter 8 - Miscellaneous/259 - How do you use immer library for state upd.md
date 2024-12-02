@@ -32,6 +32,7 @@ const [user, setUser] = useImmer({
         postalCode: 440004,
     },
 });
+
 //Update user details upon any event
 setUser((draft) => {
     draft.address.country = 'Germany';
@@ -60,4 +61,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

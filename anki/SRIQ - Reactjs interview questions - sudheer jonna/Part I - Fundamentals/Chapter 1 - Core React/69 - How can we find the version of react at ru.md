@@ -8,6 +8,7 @@ You can use `React.version` to get the version.
 
 ```jsx
 const REACT_VERSION = React.version;
+
 ReactDOM.render(
     <div>{`React version: ${REACT_VERSION}`}</div>,
     document.getElementById('app'),
@@ -34,4 +35,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

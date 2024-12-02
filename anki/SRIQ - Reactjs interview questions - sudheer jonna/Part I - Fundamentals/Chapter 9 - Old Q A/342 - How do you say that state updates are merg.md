@@ -27,6 +27,7 @@ Now you can update them independently with separate `setState()` calls as below,
         posts: response.posts
       });
     });
+
     fetchComments().then(response => {
       this.setState({
         comments: response.comments
@@ -57,4 +58,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

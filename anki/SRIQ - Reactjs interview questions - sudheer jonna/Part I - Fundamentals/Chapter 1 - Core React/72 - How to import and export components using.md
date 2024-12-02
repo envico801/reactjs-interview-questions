@@ -8,6 +8,7 @@ You should use default for exporting the components
 
 ```jsx
 import User from "user";
+
 export default function MyProfile {
     return <User type="customer">//...</User>;
 }
@@ -20,6 +21,7 @@ export default function MyProfile {
 ```jsx
 import React from 'react';
 import User from 'user';
+
 export default class MyProfile extends React.Component {
     render() {
         return <User type='customer'>//...</User>;
@@ -53,4 +55,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

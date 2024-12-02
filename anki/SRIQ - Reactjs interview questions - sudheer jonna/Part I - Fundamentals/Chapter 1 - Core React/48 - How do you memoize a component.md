@@ -11,7 +11,9 @@ For example `moize` library can memoize the component in another component.
 ```jsx
 import moize from 'moize';
 import Component from './components/Component'; // this module exports a non-memoized component
+
 const MemoizedFoo = moize.react(Component);
+
 const Consumer = () => {
     <div>
         {'I will memoize the following entry:'}
@@ -50,4 +52,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

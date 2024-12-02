@@ -17,6 +17,7 @@ class MyComponent extends React.Component {
         this.state = { error: null };
         this.handleClick = this.handleClick.bind(this);
     }
+
     handleClick() {
         try {
             // Do something that could throw
@@ -24,6 +25,7 @@ class MyComponent extends React.Component {
             this.setState({ error });
         }
     }
+
     render() {
         if (this.state.error) {
             return <h1>Caught an error.</h1>;
@@ -55,4 +57,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

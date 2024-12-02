@@ -48,6 +48,7 @@ When diffing two trees, React first compares the two root elements. The behavior
   <li key="2015">Duke</li>
   <li key="2016">Villanova</li>
 </ul>
+
 <ul>
   <li key="2014">Connecticut</li>
   <li key="2015">Duke</li>
@@ -75,4 +76,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

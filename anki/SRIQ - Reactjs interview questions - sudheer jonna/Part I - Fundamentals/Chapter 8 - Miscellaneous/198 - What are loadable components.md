@@ -8,7 +8,9 @@ With the release of React 18, React.lazy and Suspense are now available for serv
 
 ```javascript
 import loadable from '@loadable/component';
+
 const OtherComponent = loadable(() => import('./OtherComponent'));
+
 function MyComponent() {
     return (
         <div>
@@ -42,4 +44,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -20,11 +20,14 @@ For example, the name input field updates the user name using `handleChange` eve
 
 ```javascript
 import React, { useState } from 'react';
+
 function UserProfile() {
     const [username, setUsername] = useState('');
+
     const handleChange = (e) => {
         setUsername(e.target.value);
     };
+
     return (
         <form>
             <label>
@@ -56,4 +59,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

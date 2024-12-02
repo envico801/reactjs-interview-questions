@@ -16,6 +16,7 @@ For example, you generally run a Node-based web server like Express, Hapi, or Ko
 // using Express
 import { renderToString } from 'react-dom/server';
 import MyPage from './MyPage';
+
 app.get('/', (req, res) => {
     res.write('<!DOCTYPE html><html><head><title>My Page</title></head><body>');
     res.write('<div id="content">');
@@ -45,4 +46,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

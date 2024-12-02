@@ -12,6 +12,7 @@ For example,
 const ComponentA = () => (
     <ComponentB isDisplay={true} className={'componentStyle'} />
 );
+
 const ComponentB = ({ isDisplay, ...domProps }) => (
     <div {...domProps}>{'ComponentB'}</div>
 );
@@ -37,4 +38,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

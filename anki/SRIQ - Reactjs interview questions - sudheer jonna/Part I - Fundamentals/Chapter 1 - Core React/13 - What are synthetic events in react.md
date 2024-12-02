@@ -18,6 +18,7 @@ function BookStore() {
         e.stopPropagation();
         e.preventDefault();
     }
+
     return <input name='title' onChange={handleTitleChange} />;
 }
 ```
@@ -42,4 +43,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

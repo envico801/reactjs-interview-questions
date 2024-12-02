@@ -4,11 +4,14 @@
 
 ```javascript
 import { useRef } from 'react';
+
 export default function Counter() {
     let ref = useRef(0);
+
     function handleClick() {
         ref.current = ref.current + 1;
     }
+
     return (
         <>
             <div>Clicked + {ref.current} + times</div>
@@ -52,4 +55,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

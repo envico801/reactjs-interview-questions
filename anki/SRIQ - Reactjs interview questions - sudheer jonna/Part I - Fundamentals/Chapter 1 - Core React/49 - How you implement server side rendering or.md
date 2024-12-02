@@ -9,6 +9,7 @@ React is already equipped to handle rendering on Node servers. A special version
 ```jsx
 import ReactDOMServer from 'react-dom/server';
 import App from './App';
+
 ReactDOMServer.renderToString(<App />);
 ```
 
@@ -34,4 +35,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

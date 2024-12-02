@@ -70,8 +70,10 @@ Let's illustrate some of these differences with code examples:
 
 ```javascript
 // Page Router Example
+
 // pages/index.js
 import { useState } from 'react'
+
 export default function Home() {
   const [count, setCount] = useState(0)
   return (
@@ -82,11 +84,14 @@ export default function Home() {
     </div>
   )
 }
+
 // pages/about.js
 export default function About() {
   return <h1>About Page</h1>
 }
+
 // App Router Example
+
 // app/page.js
 export default function Home() {
   return (
@@ -96,9 +101,11 @@ export default function Home() {
     </div>
   )
 }
+
 // app/ClientComponent.js
 'use client'
 import { useState } from 'react'
+
 export default function ClientComponent() {
   const [count, setCount] = useState(0)
   return (
@@ -108,10 +115,12 @@ export default function ClientComponent() {
     </>
   )
 }
+
 // app/about/page.js
 export default function About() {
   return <h1>About Page</h1>
 }
+
 // app/layout.js
 export default function RootLayout({ children }) {
   return (
@@ -120,10 +129,12 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
 // app/loading.js
 export default function Loading() {
   return <p>Loading...</p>
 }
+
 // app/error.js
 'use client'
 export default function Error({ error, reset }) {
@@ -134,6 +145,7 @@ export default function Error({ error, reset }) {
     </div>
   )
 }
+
 ```
 
 Key observations from these examples:
@@ -168,4 +180,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -8,6 +8,7 @@ Let's write a test for a function that adds two numbers in `sum.js` file:
 
 ```javascript
 const sum = (a, b) => a + b;
+
 export default sum;
 ```
 
@@ -15,6 +16,7 @@ Create a file named `sum.test.js` which contains actual test:
 
 ```javascript
 import sum from './sum';
+
 test('adds 1 + 2 to equal 3', () => {
     expect(sum(1, 2)).toBe(3);
 });
@@ -58,4 +60,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -10,11 +10,13 @@ Let's take an example of function stateful component which update the state base
 
 ```javascript
 import React, {useState} from 'react';
+
 const App = (props) => {
 const [count, setCount] = useState(0);
 handleIncrement() {
   setCount(count+1);
 }
+
 return (
   <>
     <button onClick={handleIncrement}>Increment</button>
@@ -36,9 +38,11 @@ class App extends Component {
         super(props);
         this.state = { count: 0 };
     }
+
     handleIncrement() {
         setState({ count: this.state.count + 1 });
     }
+
     render() {
         <>
             <button onClick={() => this.handleIncrement}>Increment</button>
@@ -72,4 +76,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -16,7 +16,9 @@ But if you are using React Scripting between react-scripts@2.1.0 and react-scrip
 
 ```bash
 npx create-react-app my-app --typescript
+
 # or
+
 yarn create react-app my-app --typescript
 ```
 
@@ -59,4 +61,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

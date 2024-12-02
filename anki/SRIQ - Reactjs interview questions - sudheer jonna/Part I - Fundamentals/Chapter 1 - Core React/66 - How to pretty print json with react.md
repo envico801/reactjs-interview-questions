@@ -8,10 +8,13 @@ We can use `<pre>` tag so that the formatting of the `JSON.stringify()` is retai
 
 ```jsx
 const data = { name: "John", age: 42 };
+
 function User {
     return <pre>{JSON.stringify(data, null, 2)}</pre>;
 }
+
 const container = createRoot(document.getElementById("container"));
+
 container.render(<User />);
 ```
 
@@ -21,11 +24,13 @@ container.render(<User />);
 
 ```jsx
 const data = { name: 'John', age: 42 };
+
 class User extends React.Component {
     render() {
         return <pre>{JSON.stringify(data, null, 2)}</pre>;
     }
 }
+
 React.render(<User />, document.getElementById('container'));
 ```
 
@@ -53,4 +58,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

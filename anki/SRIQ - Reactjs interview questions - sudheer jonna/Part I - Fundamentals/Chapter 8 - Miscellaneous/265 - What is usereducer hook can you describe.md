@@ -28,6 +28,7 @@ Here's a brief overview of `useReducer`:
 
 ```javascript
 import React, { useReducer } from 'react';
+
 // Reducer function
 const counterReducer = (state, action) => {
     switch (action.type) {
@@ -39,9 +40,11 @@ const counterReducer = (state, action) => {
             return state;
     }
 };
+
 const Counter = () => {
     // Using useReducer
     const [state, dispatch] = useReducer(counterReducer, { count: 0 });
+
     return (
         <div>
             Count: {state.count}
@@ -50,6 +53,7 @@ const Counter = () => {
         </div>
     );
 };
+
 export default Counter;
 ```
 
@@ -95,4 +99,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

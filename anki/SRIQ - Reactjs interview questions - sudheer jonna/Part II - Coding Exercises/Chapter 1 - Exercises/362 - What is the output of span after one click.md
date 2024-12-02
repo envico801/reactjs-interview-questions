@@ -4,11 +4,14 @@
 
 ```javascript
 import { useRef } from 'react';
+
 export default function Counter() {
     let countRef = useRef(0);
+
     function handleIncrement() {
         countRef.current = countRef.current + 1;
     }
+
     return;
     <>
         <span>Count: {countRef.current}</span>
@@ -57,4 +60,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

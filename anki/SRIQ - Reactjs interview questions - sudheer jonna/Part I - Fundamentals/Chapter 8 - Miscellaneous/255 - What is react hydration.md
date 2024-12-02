@@ -13,8 +13,10 @@ Consider that React DOM API(using `renderToString`) generated HTML for `<App>` c
 ```jsx
 import {useState} from 'react';
 import { renderToString } from 'react-dom/server';
+
 export default function App() {
   const [count, setCount] = React.useState(0);
+
   return (
     <h1>Counter</h1>
     <button onClick={() => setCount(prevCount => prevCount + 1)}>
@@ -22,6 +24,7 @@ export default function App() {
     </button>
     );
 }
+
 const html = renderToString(<App />);
 ```
 
@@ -40,6 +43,7 @@ At this stage `hydrateRoot` API can be used to perform hydration by attaching `o
 ```jsx
 import { hydrateRoot } from 'react-dom/client';
 import App from './App.js';
+
 hydrateRoot(document.getElementById('root'), <App />);
 ```
 
@@ -65,4 +69,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

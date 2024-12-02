@@ -24,56 +24,67 @@ Let's illustrate this with a simple example:
 
 ```javascript
 import React, { createContext, useContext, useState } from 'react';
+
 // Step 1: Create a context
 const ThemeContext = createContext();
+
 // Step 2: Create a provider component
 const ThemeProvider = ({ children }) => {
-    const [theme, setTheme] = useState('light');
-    const toggleTheme = () => {
-        setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
-    };
-    return (
-        <ThemeContext.Provider value={{ theme, toggleTheme }}>
-            {children}
-        </ThemeContext.Provider>
-    );
+  const [theme, setTheme] = useState('light');
+
+  const toggleTheme = () => {
+    setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light');
+  };
+
+  return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
 };
+
 // Step 3: Create components that use the context
 const ThemedButton = () => {
-    const { theme, toggleTheme } = useContext(ThemeContext);
-    return (
-        <button
-            onClick={toggleTheme}
-            style={{
-                backgroundColor: theme === 'light' ? '#fff' : '#333',
-                color: theme === 'light' ? '#333' : '#fff',
-            }}
-        >
-            Toggle Theme
-        </button>
-    );
+  const { theme, toggleTheme } = useContext(ThemeContext);
+
+  return (
+    <button
+      onClick={toggleTheme}
+      style={{
+        backgroundColor: theme === 'light' ? '#fff' : '#333',
+        color: theme === 'light' ? '#333' : '#fff'
+      }}
+    >
+      Toggle Theme
+    </button>
+  );
 };
+
 const ThemedText = () => {
-    const { theme } = useContext(ThemeContext);
-    return (
-        <p style={{ color: theme === 'light' ? '#333' : '#fff' }}>
-            Current theme: {theme}
-        </p>
-    );
+  const { theme } = useContext(ThemeContext);
+
+  return (
+    <p style={{ color: theme === 'light' ? '#333' : '#fff' }}>
+      Current theme: {theme}
+    </p>
+  );
 };
+
 // Step 4: Use the provider to wrap the app
 const App = () => {
-    return (
-        <ThemeProvider>
-            <div>
-                <h1>Theme Example</h1>
-                <ThemedText />
-                <ThemedButton />
-            </div>
-        </ThemeProvider>
-    );
+  return (
+    <ThemeProvider>
+      <div>
+        <h1>Theme Example</h1>
+        <ThemedText />
+        <ThemedButton />
+      </div>
+    </ThemeProvider>
+  );
 };
+
 export default App;
+
 ```
 
 Let's break down how this works:
@@ -128,4 +139,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

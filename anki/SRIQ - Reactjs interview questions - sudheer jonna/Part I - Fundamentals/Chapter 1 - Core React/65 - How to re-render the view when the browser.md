@@ -13,6 +13,7 @@ function WindowDimensions() {
         width: window.innerWidth,
         height: window.innerHeight,
     });
+
     useEffect(() => {
         function handleResize() {
             setDimensions({
@@ -23,6 +24,7 @@ function WindowDimensions() {
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
+
     return (
         <span>
             {dimensions.width} x {dimensions.height}
@@ -43,21 +45,26 @@ class WindowDimensions extends React.Component {
         super(props);
         this.updateDimensions = this.updateDimensions.bind(this);
     }
+
     componentWillMount() {
         this.updateDimensions();
     }
+
     componentDidMount() {
         window.addEventListener('resize', this.updateDimensions);
     }
+
     componentWillUnmount() {
         window.removeEventListener('resize', this.updateDimensions);
     }
+
     updateDimensions() {
         this.setState({
             width: window.innerWidth,
             height: window.innerHeight,
         });
     }
+
     render() {
         return (
             <span>
@@ -90,4 +97,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

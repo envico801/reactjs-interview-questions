@@ -22,6 +22,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import AuthState from './context/auth/AuthState';
+
 ReactDOM.render(
     <React.StrictMode>
         <AuthState>
@@ -36,7 +37,9 @@ ReactDOM.render(
 
 ```js
 const authContext = useContext(AuthContext);
+
 const { loadUser } = authContext;
+
 useEffect(() => {
     loadUser();
 }, []);
@@ -47,14 +50,17 @@ useEffect(() => {
 ```js
 const loadUser = async () => {
     const token = sessionStorage.getItem('token');
+
     if (!token) {
         dispatch({
             type: ERROR,
         });
     }
     setAuthToken(token);
+
     try {
         const res = await axios('/api/auth');
+
         dispatch({
             type: USER_LOADED,
             payload: res.data.data,
@@ -85,4 +91,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

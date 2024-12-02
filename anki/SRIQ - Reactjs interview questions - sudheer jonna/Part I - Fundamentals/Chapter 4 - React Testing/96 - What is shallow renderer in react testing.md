@@ -23,10 +23,13 @@ Then you can assert as follows:
 
 ```jsx
 import ShallowRenderer from 'react-test-renderer/shallow';
+
 // in your test
 const renderer = new ShallowRenderer();
 renderer.render(<MyComponent />);
+
 const result = renderer.getRenderOutput();
+
 expect(result.type).toBe('div');
 expect(result.props.children).toEqual([
     <span className={'heading'}>{'Title'}</span>,
@@ -54,4 +57,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

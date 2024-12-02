@@ -8,6 +8,7 @@
 
 ```jsx
 import { StrictMode } from 'react';
+
 function App() {
     return (
         <div>
@@ -48,4 +49,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

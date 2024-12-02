@@ -12,6 +12,7 @@ For example, in the below code snippets, it will make moduleA.js and all its uni
 
 ```javascript
 const moduleA = 'Hello';
+
 export { moduleA };
 ```
 
@@ -28,6 +29,7 @@ export default function App {
         // Handle failure
       });
   };
+
  return (
    <div>
      <button onClick={this.handleClick}>Load</button>
@@ -42,6 +44,7 @@ export default function App {
 
 ```javascript
 import React, { Component } from 'react';
+
 class App extends Component {
     handleClick = () => {
         import('./moduleA')
@@ -52,6 +55,7 @@ class App extends Component {
                 // Handle failure
             });
     };
+
     render() {
         return (
             <div>
@@ -60,6 +64,7 @@ class App extends Component {
         );
     }
 }
+
 export default App;
 ```
 
@@ -87,4 +92,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

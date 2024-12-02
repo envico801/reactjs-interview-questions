@@ -112,6 +112,7 @@ class Child extends React.Component {
         );
     }
 }
+
 class Parent extends React.Component {
     render() {
         return (
@@ -132,6 +133,7 @@ function Child(props) {
         <h1>This is a child component and the component name is{props.name}</h1>
     );
 }
+
 function Parent() {
     return (
         <div className='Parent'>
@@ -162,4 +164,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

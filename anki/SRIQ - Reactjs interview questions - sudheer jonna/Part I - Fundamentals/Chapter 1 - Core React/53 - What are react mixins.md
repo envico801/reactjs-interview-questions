@@ -10,6 +10,7 @@ One of the most commonly used mixins is `PureRenderMixin`. You might be using it
 
 ```javascript
 const PureRenderMixin = require('react-addons-pure-render-mixin');
+
 const Button = React.createClass({
     mixins: [PureRenderMixin],
     // ...
@@ -38,4 +39,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

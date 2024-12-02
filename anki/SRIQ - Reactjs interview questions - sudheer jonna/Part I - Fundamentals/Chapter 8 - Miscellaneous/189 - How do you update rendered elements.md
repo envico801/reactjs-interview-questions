@@ -18,6 +18,7 @@ function tick() {
     );
     ReactDOM.render(element, document.getElementById('root'));
 }
+
 setInterval(tick, 1000);
 ```
 
@@ -41,4 +42,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -11,9 +11,11 @@ const rootReducer = combineReducers({
     todos: todos,
     visibilityFilter: visibilityFilter,
 });
+
 const initialState = {
     todos: [{ id: 123, name: 'example', completed: false }],
 };
+
 const store = createStore(rootReducer, initialState);
 ```
 
@@ -37,4 +39,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

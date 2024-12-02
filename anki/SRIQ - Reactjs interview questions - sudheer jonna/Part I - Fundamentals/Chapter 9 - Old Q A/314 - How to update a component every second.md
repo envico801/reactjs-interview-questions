@@ -10,6 +10,7 @@ You need to use `setInterval()` to trigger the change, but you also need to clea
 componentDidMount() {
   this.interval = setInterval(() => this.setState({ time: Date.now() }), 1000)
 }
+
 componentWillUnmount() {
   clearInterval(this.interval)
 }
@@ -35,4 +36,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

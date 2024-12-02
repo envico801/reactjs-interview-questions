@@ -18,10 +18,12 @@ class A extends React.component {
       loading: false
     }
  }
+
 componentDidMount() {
   let { loading } = this.state;
   loading = (() => true)(); // Trying to perform an operation and directly saving in a state variable
 }
+
 ```
 
 **How to prevent it:** Make sure your state variables are immutable by either enforcing immutability by using plugins like Immutable.js, always using `setState` to make updates, and returning new instances in reducers when sending updated state values.
@@ -46,4 +48,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

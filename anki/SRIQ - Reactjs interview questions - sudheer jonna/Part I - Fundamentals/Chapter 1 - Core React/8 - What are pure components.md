@@ -18,6 +18,7 @@ Below is the example of how child component(i.e., EmployeeProfile) prevents re-r
 
 ```jsx
 import { memo, useState } from 'react';
+
 const EmployeeProfile = memo(function EmployeeProfile({ name, email }) {
     return (
         <>
@@ -75,4 +76,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

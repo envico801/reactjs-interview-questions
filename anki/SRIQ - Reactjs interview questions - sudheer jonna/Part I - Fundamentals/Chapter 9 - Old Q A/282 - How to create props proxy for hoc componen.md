@@ -16,6 +16,7 @@ function HOC(WrappedComponent) {
                 showFeatureX: false,
                 showFeatureY: true,
             };
+
             return <WrappedComponent {...this.props} {...newProps} />;
         }
     };
@@ -42,4 +43,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

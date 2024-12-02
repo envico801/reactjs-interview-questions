@@ -8,6 +8,7 @@ The `React.lazy` function lets you render a dynamic import as a regular componen
 
 ```jsx
 const OtherComponent = React.lazy(() => import('./OtherComponent'));
+
 function MyComponent() {
     return (
         <div>
@@ -41,4 +42,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

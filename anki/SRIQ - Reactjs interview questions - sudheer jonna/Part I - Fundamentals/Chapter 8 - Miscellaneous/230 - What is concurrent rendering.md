@@ -11,6 +11,7 @@ The Concurrent rendering makes React apps to be more responsive by rendering com
 <React.unstable_ConcurrentMode>
     <Something />
 </React.unstable_ConcurrentMode>;
+
 // 2. Whole app using createRoot
 ReactDOM.unstable_createRoot(domNode).render(<App />);
 ```
@@ -35,4 +36,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

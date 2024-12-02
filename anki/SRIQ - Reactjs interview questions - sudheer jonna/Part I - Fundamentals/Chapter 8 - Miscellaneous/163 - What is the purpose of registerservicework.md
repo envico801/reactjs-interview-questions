@@ -11,6 +11,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
 ```
@@ -35,4 +36,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

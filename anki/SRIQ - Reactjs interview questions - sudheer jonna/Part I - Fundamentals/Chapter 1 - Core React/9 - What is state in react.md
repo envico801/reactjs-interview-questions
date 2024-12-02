@@ -12,8 +12,10 @@ Let's take an example of **User** component with `message` state. Here, **useSta
 
 ```jsx
 import { useState } from 'react';
+
 function User() {
     const [message, setMessage] = useState('Welcome to React world');
+
     return (
         <div>
             <h1>{message}</h1>
@@ -33,10 +35,12 @@ import React from 'react';
 class User extends React.Component {
     constructor(props) {
         super(props);
+
         this.state = {
             message: 'Welcome to React world',
         };
     }
+
     render() {
         return (
             <div>
@@ -73,4 +77,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

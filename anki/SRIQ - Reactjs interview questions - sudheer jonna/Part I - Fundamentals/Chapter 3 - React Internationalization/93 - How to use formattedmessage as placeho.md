@@ -9,13 +9,16 @@ The `<Formatted... />` components from `react-intl` return elements, not plain t
 ```jsx
 import React from 'react';
 import { injectIntl, intlShape } from 'react-intl';
+
 const MyComponent = ({ intl }) => {
     const placeholder = intl.formatMessage({ id: 'messageId' });
     return <input placeholder={placeholder} />;
 };
+
 MyComponent.propTypes = {
     intl: intlShape.isRequired,
 };
+
 export default injectIntl(MyComponent);
 ```
 
@@ -39,4 +42,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

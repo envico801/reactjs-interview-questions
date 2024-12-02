@@ -12,10 +12,12 @@ For example, let us take `rootReducer()` to return the initial state after `USER
 const appReducer = combineReducers({
     /* your app's top-level reducers */
 });
+
 const rootReducer = (state, action) => {
     if (action.type === 'USER_LOGOUT') {
         state = undefined;
     }
+
     return appReducer(state, action);
 };
 ```
@@ -26,13 +28,16 @@ In case of using `redux-persist`, you may also need to clean your storage. `redu
 const appReducer = combineReducers({
     /* your app's top-level reducers */
 });
+
 const rootReducer = (state, action) => {
     if (action.type === 'USER_LOGOUT') {
         Object.keys(state).forEach((key) => {
             storage.removeItem(`persist:${key}`);
         });
+
         state = undefined;
     }
+
     return appReducer(state, action);
 };
 ```
@@ -57,4 +62,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

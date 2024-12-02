@@ -15,15 +15,19 @@ Let's take an example setting up Redux without and with a decorator.
     import * as actionCreators from './actionCreators';
     import { bindActionCreators } from 'redux';
     import { connect } from 'react-redux';
+
     function mapStateToProps(state) {
         return { todos: state.todos };
     }
+
     function mapDispatchToProps(dispatch) {
         return { actions: bindActionCreators(actionCreators, dispatch) };
     }
+
     class MyApp extends React.Component {
         // ...define your main app here
     }
+
     export default connect(mapStateToProps, mapDispatchToProps)(MyApp);
     ```
 
@@ -34,12 +38,15 @@ Let's take an example setting up Redux without and with a decorator.
     import * as actionCreators from './actionCreators';
     import { bindActionCreators } from 'redux';
     import { connect } from 'react-redux';
+
     function mapStateToProps(state) {
         return { todos: state.todos };
     }
+
     function mapDispatchToProps(dispatch) {
         return { actions: bindActionCreators(actionCreators, dispatch) };
     }
+
     @connect(mapStateToProps, mapDispatchToProps)
     export default class MyApp extends React.Component {
         // ...define your main app here
@@ -68,4 +75,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

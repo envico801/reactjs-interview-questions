@@ -4,14 +4,18 @@
 
 ```javascript
 import { useRef } from 'react';
+
 function MyCustomInput(props) {
     return <input {...props} />;
 }
+
 export default function MyCustomForm() {
     const inputRef = useRef(null);
+
     function handleInputFocus() {
         inputRef.current.focus();
     }
+
     return (
         <>
             <MyCustomInput ref={inputRef} />
@@ -61,4 +65,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

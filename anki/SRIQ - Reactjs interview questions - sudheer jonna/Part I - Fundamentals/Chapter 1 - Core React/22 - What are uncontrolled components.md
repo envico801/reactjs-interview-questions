@@ -18,12 +18,15 @@ In the below UserProfile component, the `username` input is accessed using ref.
 
 ```jsx
 import React, { useRef } from 'react';
+
 function UserProfile() {
     const usernameRef = useRef(null);
+
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log('The submitted username is: ' + usernameRef.current.value);
     };
+
     return (
         <form onSubmit={handleSubmit}>
             <label>
@@ -49,10 +52,12 @@ class UserProfile extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
         this.input = React.createRef();
     }
+
     handleSubmit(event) {
         alert('A name was submitted: ' + this.input.current.value);
         event.preventDefault();
     }
+
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
@@ -91,4 +96,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

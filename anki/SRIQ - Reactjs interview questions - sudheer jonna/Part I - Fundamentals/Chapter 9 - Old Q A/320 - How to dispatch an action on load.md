@@ -11,16 +11,20 @@ class App extends Component {
     componentDidMount() {
         this.props.fetchData();
     }
+
     render() {
         return this.props.isLoaded ?
                 <div>{'Loaded'}</div>
             :   <div>{'Not Loaded'}</div>;
     }
 }
+
 const mapStateToProps = (state) => ({
     isLoaded: state.isLoaded,
 });
+
 const mapDispatchToProps = { fetchData };
+
 export default connect(mapStateToProps, mapDispatchToProps)(App);
 ```
 
@@ -44,4 +48,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

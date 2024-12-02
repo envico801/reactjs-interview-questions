@@ -8,12 +8,15 @@ You can get the current locale in any component of your application using `injec
 
 ```jsx
 import { injectIntl, intlShape } from 'react-intl';
+
 const MyComponent = ({ intl }) => (
     <div>{`The current locale is ${intl.locale}`}</div>
 );
+
 MyComponent.propTypes = {
     intl: intlShape.isRequired,
 };
+
 export default injectIntl(MyComponent);
 ```
 
@@ -37,4 +40,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

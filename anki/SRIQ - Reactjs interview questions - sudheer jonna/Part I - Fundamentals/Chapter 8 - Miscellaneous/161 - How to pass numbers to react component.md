@@ -8,6 +8,7 @@ We can pass `numbers` as `props` to React component using curly braces `{}` wher
 
 ```jsx
 import React from 'react';
+
 const ChildComponent = ({ name, age }) => {
     return (
         <>
@@ -15,6 +16,7 @@ const ChildComponent = ({ name, age }) => {
         </>
     );
 };
+
 const ParentComponent = () => {
     return (
         <>
@@ -22,6 +24,7 @@ const ParentComponent = () => {
         </>
     );
 };
+
 export default ParentComponent;
 ```
 
@@ -45,4 +48,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

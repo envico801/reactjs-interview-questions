@@ -10,10 +10,13 @@ Let's demonstrate this automatic batching feature with a below example.
 
 ```jsx
 import { useState } from 'react';
+
 export default function BatchingState() {
     const [count, setCount] = useState(0);
     const [message, setMessage] = useState('batching');
+
     console.log('Application Rendered');
+
     const handleUsers = () => {
         fetch('https://jsonplaceholder.typicode.com/users/1').then(() => {
             // Automatic Batching re-render only once
@@ -21,6 +24,7 @@ export default function BatchingState() {
             setMessage('users fetched');
         });
     };
+
     return (
         <>
             <h1>{count}</h1>
@@ -52,4 +56,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

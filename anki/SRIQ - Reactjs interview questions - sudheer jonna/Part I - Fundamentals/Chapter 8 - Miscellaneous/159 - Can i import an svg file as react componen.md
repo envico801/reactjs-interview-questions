@@ -8,6 +8,7 @@ You can import SVG directly as component instead of loading it as a file. This f
 
 ```jsx
 import { ReactComponent as Logo } from './logo.svg';
+
 const App = () => (
     <div>
         {/* Logo is an actual react component */}
@@ -38,4 +39,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

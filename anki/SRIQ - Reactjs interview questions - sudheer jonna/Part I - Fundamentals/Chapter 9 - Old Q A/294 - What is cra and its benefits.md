@@ -11,9 +11,11 @@ Let's create Todo App using _CRA_:
 ```console
 # Installation
 $ npm install -g create-react-app
+
 # Create new project
 $ create-react-app todo-app
 $ cd todo-app
+
 # Build, test and run
 $ npm run build
 $ npm run test
@@ -54,4 +56,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

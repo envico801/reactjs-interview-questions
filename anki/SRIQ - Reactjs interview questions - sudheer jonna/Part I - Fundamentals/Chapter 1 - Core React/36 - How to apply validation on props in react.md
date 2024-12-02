@@ -33,11 +33,13 @@ We can define `propTypes` for `User` component as below:
 ```jsx
 import React from 'react';
 import PropTypes from 'prop-types';
+
 class User extends React.Component {
     static propTypes = {
         name: PropTypes.string.isRequired,
         age: PropTypes.number.isRequired,
     };
+
     render() {
         return (
             <>
@@ -56,6 +58,7 @@ _The Equivalent Functional Component_
 ```jsx
 import React from 'react';
 import PropTypes from 'prop-types';
+
 function User({ name, age }) {
     return (
         <>
@@ -64,6 +67,7 @@ function User({ name, age }) {
         </>
     );
 }
+
 User.propTypes = {
     name: PropTypes.string.isRequired,
     age: PropTypes.number.isRequired,
@@ -90,4 +94,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

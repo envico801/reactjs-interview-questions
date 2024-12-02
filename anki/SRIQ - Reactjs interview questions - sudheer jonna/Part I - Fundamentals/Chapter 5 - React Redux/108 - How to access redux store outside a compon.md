@@ -8,6 +8,7 @@ You just need to export the store from the module where it created with `createS
 
 ```javascript
 store = createStore(myReducer);
+
 export default store;
 ```
 
@@ -31,4 +32,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

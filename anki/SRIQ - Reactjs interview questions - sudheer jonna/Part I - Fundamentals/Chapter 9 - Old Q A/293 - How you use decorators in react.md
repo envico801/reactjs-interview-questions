@@ -11,6 +11,7 @@ You can _decorate_ your _class_ components, which is the same as passing the com
 class Profile extends React.Component {
     //....
 }
+
 /*
   title is a string that will be set as a document title
   WrappedComponent is what our decorator will receive when
@@ -21,6 +22,7 @@ const setTitle = (title) => (WrappedComponent) => {
         componentDidMount() {
             document.title = title;
         }
+
         render() {
             return <WrappedComponent {...this.props} />;
         }
@@ -50,4 +52,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

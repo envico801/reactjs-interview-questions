@@ -14,6 +14,7 @@ export const colors = {
     black,
     blue,
 };
+
 export const space = [0, 8, 16, 32, 64];
 ```
 
@@ -43,4 +44,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

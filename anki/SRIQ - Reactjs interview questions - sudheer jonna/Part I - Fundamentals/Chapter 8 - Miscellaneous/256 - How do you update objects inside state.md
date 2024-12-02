@@ -10,21 +10,26 @@ Let's see this comparison with an example. The issue with regular object mutatio
 
 ```jsx
 import { useState } from 'react';
+
 export default function Profile() {
     const [user, setUser] = useState({
         firstName: 'John',
         lastName: 'Abraham',
         age: 30,
     });
+
     function handleFirstNameChange(e) {
         user.firstName = e.target.value;
     }
+
     function handleLastNameChange(e) {
         user.lastName = e.target.value;
     }
+
     function handleAgeChange(e) {
         user.age = e.target.value;
     }
+
     return (
         <>
             <label>
@@ -86,4 +91,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

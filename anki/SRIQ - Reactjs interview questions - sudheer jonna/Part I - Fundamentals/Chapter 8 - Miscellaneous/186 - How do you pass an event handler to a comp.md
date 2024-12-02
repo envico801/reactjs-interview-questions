@@ -10,10 +10,12 @@ You can pass event handlers and other functions as props to child components. Th
 function Button({ onClick }) {
     return <button onClick={onClick}>Download</button>;
 }
+
 export default function downloadExcel() {
     function handleClick() {
         alert('Downloaded');
     }
+
     return <Button onClick={handleClick}></Button>;
 }
 ```
@@ -38,4 +40,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

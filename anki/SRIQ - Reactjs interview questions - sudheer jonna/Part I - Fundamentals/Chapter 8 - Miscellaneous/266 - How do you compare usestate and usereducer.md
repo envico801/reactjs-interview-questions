@@ -58,11 +58,14 @@ Let's illustrate this with a simple example comparing both approaches:
 
 ```javascript
 import React, { useState, useReducer } from 'react';
+
 // useState example
 const CounterWithState = () => {
     const [count, setCount] = useState(0);
+
     const increment = () => setCount((prevCount) => prevCount + 1);
     const decrement = () => setCount((prevCount) => prevCount - 1);
+
     return (
         <div>
             <p>Count: {count}</p>
@@ -71,6 +74,7 @@ const CounterWithState = () => {
         </div>
     );
 };
+
 // useReducer example
 const counterReducer = (state, action) => {
     switch (action.type) {
@@ -82,8 +86,10 @@ const counterReducer = (state, action) => {
             return state;
     }
 };
+
 const CounterWithReducer = () => {
     const [state, dispatch] = useReducer(counterReducer, { count: 0 });
+
     return (
         <div>
             <p>Count: {state.count}</p>
@@ -128,4 +134,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

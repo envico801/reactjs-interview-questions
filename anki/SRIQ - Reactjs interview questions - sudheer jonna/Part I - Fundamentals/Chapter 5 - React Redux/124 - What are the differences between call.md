@@ -13,6 +13,7 @@ function* fetchUserSaga(action) {
     // `call` function accepts rest arguments, which will be passed to `api.fetchUser` function.
     // Instructing middleware to call promise, it resolved value will be assigned to `userData` variable
     const userData = yield call(api.fetchUser, action.userId);
+
     // Instructing middleware to dispatch corresponding action.
     yield put({
         type: 'FETCH_USER_SUCCESS',
@@ -41,4 +42,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -12,6 +12,7 @@ For example, let us create color default prop for the button component,
 function MyButton {
   // ...
 }
+
 MyButton.defaultProps = {
   color: "red",
 };
@@ -45,4 +46,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

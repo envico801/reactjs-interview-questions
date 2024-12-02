@@ -14,14 +14,17 @@ class ErrorBoundary extends React.Component {
         super(props);
         this.state = { hasError: false };
     }
+
     componentDidCatch(error, info) {
         // You can also log the error to an error reporting service
         logErrorToMyService(error, info);
     }
+
     static getDerivedStateFromError(error) {
         // Update state so the next render will show the fallback UI.
         return { hasError: true };
     }
+
     render() {
         if (this.state.hasError) {
             // You can render any custom fallback UI
@@ -60,4 +63,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

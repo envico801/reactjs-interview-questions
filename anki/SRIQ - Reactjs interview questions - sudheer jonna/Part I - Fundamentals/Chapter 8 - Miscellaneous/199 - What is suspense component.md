@@ -10,6 +10,7 @@ For example, the below code uses suspense component,
 
 ```javascript
 const OtherComponent = React.lazy(() => import('./OtherComponent'));
+
 function MyComponent() {
     return (
         <div>
@@ -43,4 +44,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

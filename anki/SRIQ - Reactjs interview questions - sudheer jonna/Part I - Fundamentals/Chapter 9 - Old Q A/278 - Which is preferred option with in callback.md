@@ -13,6 +13,7 @@ class MyComponent extends Component {
     componentDidMount() {
         findDOMNode(this).scrollIntoView();
     }
+
     render() {
         return <div />;
     }
@@ -30,6 +31,7 @@ class MyComponent extends Component {
     componentDidMount() {
         this.node.current.scrollIntoView();
     }
+
     render() {
         return <div ref={this.node} />;
     }
@@ -56,4 +58,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

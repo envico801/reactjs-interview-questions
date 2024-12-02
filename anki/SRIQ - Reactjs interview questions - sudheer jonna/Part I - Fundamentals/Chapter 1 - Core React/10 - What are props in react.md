@@ -31,6 +31,7 @@ For example, the usage of props in function component looks like below:
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 const ChildComponent = (props) => {
     return (
         <div>
@@ -40,6 +41,7 @@ const ChildComponent = (props) => {
         </div>
     );
 };
+
 const ParentComponent = () => {
     return (
         <div>
@@ -73,6 +75,7 @@ The Props accessed in Class Based Component as below
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 class ChildComponent extends React.Component {
     render() {
         return (
@@ -84,6 +87,7 @@ class ChildComponent extends React.Component {
         );
     }
 }
+
 class ParentComponent extends React.Component {
     render() {
         return (
@@ -118,4 +122,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

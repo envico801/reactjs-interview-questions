@@ -12,13 +12,17 @@ Let's take an example of `<FilterLink>` component using connect:
 import { connect } from 'react-redux';
 import { setVisibilityFilter } from '../actions';
 import Link from '../components/Link';
+
 const mapStateToProps = (state, ownProps) => ({
     active: ownProps.filter === state.visibilityFilter,
 });
+
 const mapDispatchToProps = (dispatch, ownProps) => ({
     onClick: () => dispatch(setVisibilityFilter(ownProps.filter)),
 });
+
 const FilterLink = connect(mapStateToProps, mapDispatchToProps)(Link);
+
 export default FilterLink;
 ```
 
@@ -52,4 +56,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

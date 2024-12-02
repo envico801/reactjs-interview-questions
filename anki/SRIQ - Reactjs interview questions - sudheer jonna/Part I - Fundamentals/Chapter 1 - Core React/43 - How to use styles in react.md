@@ -11,6 +11,7 @@ const divStyle = {
     color: 'blue',
     backgroundImage: 'url(' + imgUrl + ')',
 };
+
 function HelloWorldComponent() {
     return <div style={divStyle}>Hello World!</div>;
 }
@@ -38,4 +39,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

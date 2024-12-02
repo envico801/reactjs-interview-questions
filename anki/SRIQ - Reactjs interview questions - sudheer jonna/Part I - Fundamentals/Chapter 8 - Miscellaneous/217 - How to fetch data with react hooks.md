@@ -10,13 +10,16 @@ Here is an example of fetching a list of react articles from an API using fetch.
 
 ```javascript
 import React from 'react';
+
 function App() {
     const [data, setData] = React.useState({ hits: [] });
+
     React.useEffect(() => {
         fetch('http://hn.algolia.com/api/v1/search?query=react')
             .then((response) => response.json())
             .then((data) => setData(data));
     }, []);
+
     return (
         <ul>
             {data.hits.map((item) => (
@@ -27,6 +30,7 @@ function App() {
         </ul>
     );
 }
+
 export default App;
 ```
 
@@ -54,4 +58,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

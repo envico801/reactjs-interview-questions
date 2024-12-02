@@ -11,6 +11,7 @@ class UserForm extends Component {
     handleSubmit = () => {
         console.log('Input Value is: ', this.input.value);
     };
+
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
@@ -30,9 +31,11 @@ class UserForm extends Component {
     handleSubmit = () => {
         console.log('Input Value is: ', this.input.value);
     };
+
     setSearchInput = (input) => {
         this.input = input;
     };
+
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
@@ -65,4 +68,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -8,11 +8,14 @@ You need to use `useEffect` hook to set focus on input field during page load ti
 
 ```jsx
 import React, { useEffect, useRef } from 'react';
+
 const App = () => {
     const inputElRef = useRef(null);
+
     useEffect(() => {
         inputElRef.current.focus();
     }, []);
+
     return (
         <div>
             <input defaultValue={"Won't focus"} />
@@ -20,6 +23,7 @@ const App = () => {
         </div>
     );
 };
+
 ReactDOM.render(<App />, document.getElementById('app'));
 ```
 
@@ -34,6 +38,7 @@ class App extends React.Component {
     componentDidMount() {
         this.nameInput.focus();
     }
+
     render() {
         return (
             <div>
@@ -46,6 +51,7 @@ class App extends React.Component {
         );
     }
 }
+
 ReactDOM.render(<App />, document.getElementById('app'));
 ```
 
@@ -73,4 +79,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

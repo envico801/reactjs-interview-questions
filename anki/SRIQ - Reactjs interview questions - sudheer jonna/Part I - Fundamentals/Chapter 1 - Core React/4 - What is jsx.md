@@ -18,6 +18,7 @@ If you don't use JSX syntax then the respective JavaScript code should be writte
 
 ```javascript
 import { createElement } from 'react';
+
 export default function App() {
     return createElement(
         'h1',
@@ -65,4 +66,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

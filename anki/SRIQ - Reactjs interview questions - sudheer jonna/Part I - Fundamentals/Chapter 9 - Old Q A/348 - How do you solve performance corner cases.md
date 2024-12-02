@@ -30,6 +30,7 @@ class App extends React.Component {
             value: { something: 'something' },
         };
     }
+
     render() {
         return (
             <Provider value={this.state.value}>
@@ -60,4 +61,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

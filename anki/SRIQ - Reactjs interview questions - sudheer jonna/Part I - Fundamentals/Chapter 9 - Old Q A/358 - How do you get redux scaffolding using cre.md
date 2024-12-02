@@ -19,13 +19,17 @@ Redux team has provided official redux+js or redux+typescript templates for crea
 5.  **Javascript template:**
 
 ```js
+
 npx create-react-app my-app --template redux
+
 ```
 
 2.  **Typescript template:**
 
 ```js
+
 npx create-react-app my-app --template redux-typescript
+
 ```
 
 ========== Id ==========  
@@ -48,4 +52,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

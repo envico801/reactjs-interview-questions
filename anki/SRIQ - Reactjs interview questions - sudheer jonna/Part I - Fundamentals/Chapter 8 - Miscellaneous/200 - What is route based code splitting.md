@@ -11,8 +11,10 @@ Let us take an example of route based website using libraries like React Router 
 ```javascript
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import React, { Suspense, lazy } from 'react';
+
 const Home = lazy(() => import('./routes/Home'));
 const About = lazy(() => import('./routes/About'));
+
 const App = () => (
     <Router>
         <Suspense fallback={<div>Loading...</div>}>
@@ -47,4 +49,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

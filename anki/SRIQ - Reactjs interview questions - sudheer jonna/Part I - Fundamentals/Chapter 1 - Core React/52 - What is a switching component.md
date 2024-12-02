@@ -13,16 +13,20 @@ import HomePage from './HomePage';
 import AboutPage from './AboutPage';
 import ServicesPage from './ServicesPage';
 import ContactPage from './ContactPage';
+
 const PAGES = {
     home: HomePage,
     about: AboutPage,
     services: ServicesPage,
     contact: ContactPage,
 };
+
 const Page = (props) => {
     const Handler = PAGES[props.page] || ContactPage;
+
     return <Handler {...props} />;
 };
+
 // The keys of the PAGES object can be used in the prop types to catch dev-time errors.
 Page.propTypes = {
     page: PropTypes.oneOf(Object.keys(PAGES)).isRequired,
@@ -49,4 +53,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

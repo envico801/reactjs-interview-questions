@@ -23,6 +23,7 @@ class Component extends React.Component {
     static propTypes = {
         // ...
     };
+
     static someMethod() {
         // ...
     }
@@ -35,6 +36,7 @@ or writing them outside class as below,
 class Component extends React.Component {
    ....
 }
+
 Component.propTypes = {...}
 Component.someMethod = function(){....}
 ```
@@ -59,4 +61,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store
